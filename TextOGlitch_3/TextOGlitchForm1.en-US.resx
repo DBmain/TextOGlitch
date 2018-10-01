@@ -117,7 +117,130 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="start.Text" xml:space="preserve">
+    <value>Let's go!</value>
+  </data>
+  <data name="copyButton.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 130</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Glitch power:</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="pasteButton.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>CLEAR</value>
+  </data>
+  <data name="exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="exit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="menu.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="gli4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="gli4.Text" xml:space="preserve">
+    <value>Glitch</value>
+  </data>
+  <data name="zamena.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="zamena.Text" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="revers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="revers.Text" xml:space="preserve">
+    <value>Reverse</value>
+  </data>
+  <data name="bukvi_i_cifri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="bukvi_i_cifri.Text" xml:space="preserve">
+    <value>Letters and digits</value>
+  </data>
+  <data name="bukvi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="bukvi.Text" xml:space="preserve">
+    <value>Only letters</value>
+  </data>
+  <data name="cifri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="cifri.Text" xml:space="preserve">
+    <value>Only digits</value>
+  </data>
+  <data name="generationMenu.Text" xml:space="preserve">
+    <value>Generator</value>
+  </data>
+  <data name="tobase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="tobase.Text" xml:space="preserve">
+    <value>Text &gt; Base64</value>
+  </data>
+  <data name="totext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="totext.Text" xml:space="preserve">
+    <value>Base64 &gt; Text</value>
+  </data>
+  <data name="manyText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="manyText.Text" xml:space="preserve">
+    <value>ManyText</value>
+  </data>
+  <data name="fileGlitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="fileGlitch.Text" xml:space="preserve">
+    <value>Fileglitcher</value>
+  </data>
+  <data name="RandomizerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="RandomizerButton.Text" xml:space="preserve">
+    <value>Randomizer</value>
+  </data>
+  <data name="rejimi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="rejimi.Text" xml:space="preserve">
+    <value>Modes</value>
+  </data>
+  <data name="keygenform.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="keygenform.Text" xml:space="preserve">
+    <value>Keygen</value>
+  </data>
+  <data name="obavtore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="obavtore.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAtsAAABLCAYAAAChiUvCAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABS
@@ -222,6 +345,123 @@
         c84593+nTp3a+qHo9vODH/xgPFr9vJ3riTronHPOuY3wx2vCH7HRfjC6eY4ePTo8//zz4/HqZ+5cT9RB
         55xzzm3ccsstWz8W3X7uvvvu8Wj183auL8M5/wV5TFGIuQjLwQAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="glitchTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="glitchTray.Text" xml:space="preserve">
+    <value>Standart</value>
+  </data>
+  <data name="lightGlitchTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="glitchContextMenu.Text" xml:space="preserve">
+    <value>Glitch</value>
+  </data>
+  <data name="replaceTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="replaceTray.Text" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="reverseTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="reverseTray.Text" xml:space="preserve">
+    <value>Reverse</value>
+  </data>
+  <data name="generateTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="generateTray.Text" xml:space="preserve">
+    <value>Generation</value>
+  </data>
+  <data name="workWithTextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="workWithTextMenu.Text" xml:space="preserve">
+    <value>Work with text</value>
+  </data>
+  <data name="toBaseTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toBaseTray.Text" xml:space="preserve">
+    <value>Text &gt; Base64</value>
+  </data>
+  <data name="toTextTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toTextTray.Text" xml:space="preserve">
+    <value>Base64 &gt; Text</value>
+  </data>
+  <data name="base64Menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="base64Menu.Text" xml:space="preserve">
+    <value>Base64 (clipboard)</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="lennyFace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="shrug.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="voidSymbol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="voidSymbol.Text" xml:space="preserve">
+    <value>Nothing</value>
+  </data>
+  <data name="symbolsTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="symbolsTray.Text" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="manyTextTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="manyTextTray.Text" xml:space="preserve">
+    <value>ManyText</value>
+  </data>
+  <data name="fileGlitcherTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="fileGlitcherTray.Text" xml:space="preserve">
+    <value>Fileglitcher</value>
+  </data>
+  <data name="randomizeTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="randomizeTray.Text" xml:space="preserve">
+    <value>Randomizer</value>
+  </data>
+  <data name="gUIToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 6</value>
+  </data>
+  <data name="exitTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 22</value>
+  </data>
+  <data name="exitTray.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 120</value>
   </data>
   <data name="tray.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

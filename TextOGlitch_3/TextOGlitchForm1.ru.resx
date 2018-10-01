@@ -117,7 +117,85 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="start.Text" xml:space="preserve">
+    <value>Поехали!</value>
+  </data>
+  <data name="copyButton.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Степень глитча:</value>
+  </data>
+  <data name="keygenMenu.Text" xml:space="preserve">
+    <value>Кейген</value>
+  </data>
+  <data name="pasteButton.Text" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>ОЧИСТИТЬ</value>
+  </data>
+  <data name="aboutMenu.Text" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="about.Text" xml:space="preserve">
+    <value>Об авторе</value>
+  </data>
+  <data name="exit.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="menu.Text" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="gli4.Text" xml:space="preserve">
+    <value>Глитч</value>
+  </data>
+  <data name="zamena.Text" xml:space="preserve">
+    <value>Замена</value>
+  </data>
+  <data name="revers.Text" xml:space="preserve">
+    <value>Реверс</value>
+  </data>
+  <data name="bukvi_i_cifri.Text" xml:space="preserve">
+    <value>Буквы и цифры</value>
+  </data>
+  <data name="bukvi.Text" xml:space="preserve">
+    <value>Только буквы</value>
+  </data>
+  <data name="cifri.Text" xml:space="preserve">
+    <value>Только цифры</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="generationMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="generationMenu.Text" xml:space="preserve">
+    <value>Генерация</value>
+  </data>
+  <data name="tobase.Text" xml:space="preserve">
+    <value>Текст &gt; Base64</value>
+  </data>
+  <data name="totext.Text" xml:space="preserve">
+    <value>Base64 &gt; Текст</value>
+  </data>
+  <data name="manyText.Text" xml:space="preserve">
+    <value>Многотекстовик</value>
+  </data>
+  <data name="fileGlitch.Text" xml:space="preserve">
+    <value>Файлоломатель</value>
+  </data>
+  <data name="RandomizerButton.Text" xml:space="preserve">
+    <value>Рандомайзер</value>
+  </data>
+  <data name="rejimi.Text" xml:space="preserve">
+    <value>Режимы</value>
+  </data>
+  <data name="keygenform.Text" xml:space="preserve">
+    <value>Кейген</value>
+  </data>
+  <data name="obavtore.Text" xml:space="preserve">
+    <value>Об авторах</value>
+  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAtsAAABLCAYAAAChiUvCAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABS
@@ -222,6 +300,60 @@
         c84593+nTp3a+qHo9vODH/xgPFr9vJ3riTronHPOuY3wx2vCH7HRfjC6eY4ePTo8//zz4/HqZ+5cT9RB
         55xzzm3ccsstWz8W3X7uvvvu8Wj183auL8M5/wV5TFGIuQjLwQAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="glitchTray.Text" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="glitchContextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="glitchContextMenu.Text" xml:space="preserve">
+    <value>Глитч</value>
+  </data>
+  <data name="replaceTray.Text" xml:space="preserve">
+    <value>Замена</value>
+  </data>
+  <data name="reverseTray.Text" xml:space="preserve">
+    <value>Реверс</value>
+  </data>
+  <data name="generateTray.Text" xml:space="preserve">
+    <value>Генерация</value>
+  </data>
+  <data name="workWithTextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="workWithTextMenu.Text" xml:space="preserve">
+    <value>Работа с текстом</value>
+  </data>
+  <data name="toBaseTray.Text" xml:space="preserve">
+    <value>Текст &gt; Base64</value>
+  </data>
+  <data name="toTextTray.Text" xml:space="preserve">
+    <value>Base64 &gt; Текст</value>
+  </data>
+  <data name="base64Menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="base64Menu.Text" xml:space="preserve">
+    <value>Base64 (буфер)</value>
+  </data>
+  <data name="voidSymbol.Text" xml:space="preserve">
+    <value>Пустота</value>
+  </data>
+  <data name="symbolsTray.Text" xml:space="preserve">
+    <value>Символы</value>
+  </data>
+  <data name="manyTextTray.Text" xml:space="preserve">
+    <value>Многотекстовик</value>
+  </data>
+  <data name="fileGlitcherTray.Text" xml:space="preserve">
+    <value>Файлоломатель</value>
+  </data>
+  <data name="randomizeTray.Text" xml:space="preserve">
+    <value>Рандомайзер</value>
+  </data>
+  <data name="exitTray.Text" xml:space="preserve">
+    <value>Выход</value>
   </data>
   <data name="tray.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

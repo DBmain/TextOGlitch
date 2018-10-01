@@ -59,7 +59,7 @@
             this.gli4 = new System.Windows.Forms.ToolStripMenuItem();
             this.zamena = new System.Windows.Forms.ToolStripMenuItem();
             this.revers = new System.Windows.Forms.ToolStripMenuItem();
-            this.генерацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.generationMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.bukvi_i_cifri = new System.Windows.Forms.ToolStripMenuItem();
             this.bukvi = new System.Windows.Forms.ToolStripMenuItem();
             this.cifri = new System.Windows.Forms.ToolStripMenuItem();
@@ -73,14 +73,14 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tray = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.работаСТекстомToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.глитчToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.workWithTextMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.glitchContextMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.glitchTray = new System.Windows.Forms.ToolStripMenuItem();
             this.lightGlitchTray = new System.Windows.Forms.ToolStripMenuItem();
             this.replaceTray = new System.Windows.Forms.ToolStripMenuItem();
             this.reverseTray = new System.Windows.Forms.ToolStripMenuItem();
             this.generateTray = new System.Windows.Forms.ToolStripMenuItem();
-            this.base64буфераToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.base64Menu = new System.Windows.Forms.ToolStripMenuItem();
             this.toBaseTray = new System.Windows.Forms.ToolStripMenuItem();
             this.toTextTray = new System.Windows.Forms.ToolStripMenuItem();
             this.symbolsTray = new System.Windows.Forms.ToolStripMenuItem();
@@ -275,7 +275,7 @@
             this.gli4,
             this.zamena,
             this.revers,
-            this.генерацияToolStripMenuItem,
+            this.generationMenu,
             this.tobase,
             this.totext,
             this.manyText,
@@ -306,14 +306,14 @@
             this.revers.Name = "revers";
             this.revers.Click += new System.EventHandler(this.reverseMenu_Click);
             // 
-            // генерацияToolStripMenuItem
+            // generationMenu
             // 
-            resources.ApplyResources(this.генерацияToolStripMenuItem, "генерацияToolStripMenuItem");
-            this.генерацияToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            resources.ApplyResources(this.generationMenu, "generationMenu");
+            this.generationMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bukvi_i_cifri,
             this.bukvi,
             this.cifri});
-            this.генерацияToolStripMenuItem.Name = "генерацияToolStripMenuItem";
+            this.generationMenu.Name = "generationMenu";
             // 
             // bukvi_i_cifri
             // 
@@ -395,31 +395,31 @@
             // 
             resources.ApplyResources(this.contextMenuStrip, "contextMenuStrip");
             this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.работаСТекстомToolStripMenuItem,
-            this.base64буфераToolStripMenuItem,
+            this.workWithTextMenu,
+            this.base64Menu,
             this.symbolsTray,
             this.gUIToolStripMenuItem,
             this.toolStripSeparator1,
             this.exitTray});
             this.contextMenuStrip.Name = "contextMenuStrip";
             // 
-            // работаСТекстомToolStripMenuItem
+            // workWithTextMenu
             // 
-            resources.ApplyResources(this.работаСТекстомToolStripMenuItem, "работаСТекстомToolStripMenuItem");
-            this.работаСТекстомToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.глитчToolStripMenuItem,
+            resources.ApplyResources(this.workWithTextMenu, "workWithTextMenu");
+            this.workWithTextMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.glitchContextMenu,
             this.replaceTray,
             this.reverseTray,
             this.generateTray});
-            this.работаСТекстомToolStripMenuItem.Name = "работаСТекстомToolStripMenuItem";
+            this.workWithTextMenu.Name = "workWithTextMenu";
             // 
-            // глитчToolStripMenuItem
+            // glitchContextMenu
             // 
-            resources.ApplyResources(this.глитчToolStripMenuItem, "глитчToolStripMenuItem");
-            this.глитчToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            resources.ApplyResources(this.glitchContextMenu, "glitchContextMenu");
+            this.glitchContextMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.glitchTray,
             this.lightGlitchTray});
-            this.глитчToolStripMenuItem.Name = "глитчToolStripMenuItem";
+            this.glitchContextMenu.Name = "glitchContextMenu";
             // 
             // glitchTray
             // 
@@ -451,13 +451,13 @@
             this.generateTray.Name = "generateTray";
             this.generateTray.Click += new System.EventHandler(this.generateTray_Click);
             // 
-            // base64буфераToolStripMenuItem
+            // base64Menu
             // 
-            resources.ApplyResources(this.base64буфераToolStripMenuItem, "base64буфераToolStripMenuItem");
-            this.base64буфераToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            resources.ApplyResources(this.base64Menu, "base64Menu");
+            this.base64Menu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toBaseTray,
             this.toTextTray});
-            this.base64буфераToolStripMenuItem.Name = "base64буфераToolStripMenuItem";
+            this.base64Menu.Name = "base64Menu";
             // 
             // toBaseTray
             // 
@@ -637,7 +637,7 @@
         private System.Windows.Forms.ToolStripMenuItem gli4;
         private System.Windows.Forms.ToolStripMenuItem zamena;
         private System.Windows.Forms.ToolStripMenuItem revers;
-        private System.Windows.Forms.ToolStripMenuItem генерацияToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem generationMenu;
         private System.Windows.Forms.ToolStripMenuItem bukvi_i_cifri;
         private System.Windows.Forms.ToolStripMenuItem bukvi;
         private System.Windows.Forms.ToolStripMenuItem tobase;
@@ -661,14 +661,14 @@
         private System.Windows.Forms.ToolStripMenuItem lennyFace;
         private System.Windows.Forms.ToolStripMenuItem cifri;
         private System.Windows.Forms.ToolStripMenuItem RandomizerButton;
-        private System.Windows.Forms.ToolStripMenuItem работаСТекстомToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem глитчToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem workWithTextMenu;
+        private System.Windows.Forms.ToolStripMenuItem glitchContextMenu;
         private System.Windows.Forms.ToolStripMenuItem glitchTray;
         private System.Windows.Forms.ToolStripMenuItem lightGlitchTray;
         private System.Windows.Forms.ToolStripMenuItem replaceTray;
         private System.Windows.Forms.ToolStripMenuItem reverseTray;
         private System.Windows.Forms.ToolStripMenuItem generateTray;
-        private System.Windows.Forms.ToolStripMenuItem base64буфераToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem base64Menu;
         private System.Windows.Forms.ToolStripMenuItem toBaseTray;
         private System.Windows.Forms.ToolStripMenuItem toTextTray;
         private System.Windows.Forms.ToolStripMenuItem gUIToolStripMenuItem;

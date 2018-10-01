@@ -131,13 +131,10 @@
     <EmbeddedResource Include="Randomizer.resx">
       <DependentUpon>Randomizer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TextOGlitchForm1.en-AU.resx">
+    <EmbeddedResource Include="TextOGlitchForm1.en-US.resx">
       <DependentUpon>TextOGlitchForm1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TextOGlitchForm1.en.resx">
-      <DependentUpon>TextOGlitchForm1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TextOGlitchForm1.rm.resx">
       <DependentUpon>TextOGlitchForm1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TextOGlitchForm1.ru.resx">
