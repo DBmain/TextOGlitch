@@ -107,44 +107,33 @@
             // 
             // textIn
             // 
-            this.textIn.Location = new System.Drawing.Point(12, 69);
+            resources.ApplyResources(this.textIn, "textIn");
             this.textIn.Name = "textIn";
-            this.textIn.Size = new System.Drawing.Size(232, 20);
-            this.textIn.TabIndex = 1;
             this.textIn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textIn_KeyDown);
             // 
             // textOut
             // 
-            this.textOut.Location = new System.Drawing.Point(12, 95);
+            resources.ApplyResources(this.textOut, "textOut");
             this.textOut.Name = "textOut";
             this.textOut.ReadOnly = true;
-            this.textOut.Size = new System.Drawing.Size(232, 20);
-            this.textOut.TabIndex = 1;
             // 
             // start
             // 
-            this.start.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
-            this.start.Location = new System.Drawing.Point(250, 122);
+            resources.ApplyResources(this.start, "start");
             this.start.Name = "start";
-            this.start.Size = new System.Drawing.Size(75, 33);
-            this.start.TabIndex = 2;
-            this.start.Text = "Поехали!";
             this.start.UseVisualStyleBackColor = true;
             this.start.Click += new System.EventHandler(this.start_Click);
             // 
             // copyButton
             // 
-            this.copyButton.Location = new System.Drawing.Point(250, 93);
+            resources.ApplyResources(this.copyButton, "copyButton");
             this.copyButton.Name = "copyButton";
-            this.copyButton.Size = new System.Drawing.Size(75, 23);
-            this.copyButton.TabIndex = 3;
-            this.copyButton.Text = "Копировать";
             this.copyButton.UseVisualStyleBackColor = true;
             this.copyButton.Click += new System.EventHandler(this.copyButton_Click);
             // 
             // glitchExtent
             // 
-            this.glitchExtent.Location = new System.Drawing.Point(202, 127);
+            resources.ApplyResources(this.glitchExtent, "glitchExtent");
             this.glitchExtent.Maximum = new decimal(new int[] {
             5,
             0,
@@ -156,8 +145,6 @@
             0,
             0});
             this.glitchExtent.Name = "glitchExtent";
-            this.glitchExtent.Size = new System.Drawing.Size(42, 20);
-            this.glitchExtent.TabIndex = 4;
             this.glitchExtent.Value = new decimal(new int[] {
             1,
             0,
@@ -166,142 +153,124 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(113, 130);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Степень глитча:";
             // 
             // менюToolStripMenuItem
             // 
+            resources.ApplyResources(this.менюToolStripMenuItem, "менюToolStripMenuItem");
             this.менюToolStripMenuItem.Name = "менюToolStripMenuItem";
-            this.менюToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
             // 
             // exitMenuStrip
             // 
+            resources.ApplyResources(this.exitMenuStrip, "exitMenuStrip");
             this.exitMenuStrip.Name = "exitMenuStrip";
-            this.exitMenuStrip.Size = new System.Drawing.Size(32, 19);
             // 
             // режимыToolStripMenuItem
             // 
+            resources.ApplyResources(this.режимыToolStripMenuItem, "режимыToolStripMenuItem");
             this.режимыToolStripMenuItem.Name = "режимыToolStripMenuItem";
-            this.режимыToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
             // 
             // glitchMenu
             // 
+            resources.ApplyResources(this.glitchMenu, "glitchMenu");
             this.glitchMenu.Name = "glitchMenu";
-            this.glitchMenu.Size = new System.Drawing.Size(32, 19);
             // 
             // replaceMenu
             // 
+            resources.ApplyResources(this.replaceMenu, "replaceMenu");
             this.replaceMenu.Name = "replaceMenu";
-            this.replaceMenu.Size = new System.Drawing.Size(32, 19);
             // 
             // reverseMenu
             // 
+            resources.ApplyResources(this.reverseMenu, "reverseMenu");
             this.reverseMenu.Name = "reverseMenu";
-            this.reverseMenu.Size = new System.Drawing.Size(32, 19);
             // 
             // generateMenu
             // 
+            resources.ApplyResources(this.generateMenu, "generateMenu");
             this.generateMenu.Name = "generateMenu";
-            this.generateMenu.Size = new System.Drawing.Size(32, 19);
             // 
             // lettersAndNumbersMenu
             // 
+            resources.ApplyResources(this.lettersAndNumbersMenu, "lettersAndNumbersMenu");
             this.lettersAndNumbersMenu.Name = "lettersAndNumbersMenu";
-            this.lettersAndNumbersMenu.Size = new System.Drawing.Size(32, 19);
             // 
             // onlyLettersMenu
             // 
+            resources.ApplyResources(this.onlyLettersMenu, "onlyLettersMenu");
             this.onlyLettersMenu.Name = "onlyLettersMenu";
-            this.onlyLettersMenu.Size = new System.Drawing.Size(32, 19);
             // 
             // toBaseMenu
             // 
+            resources.ApplyResources(this.toBaseMenu, "toBaseMenu");
             this.toBaseMenu.Name = "toBaseMenu";
-            this.toBaseMenu.Size = new System.Drawing.Size(32, 19);
             // 
             // toTextMenu
             // 
+            resources.ApplyResources(this.toTextMenu, "toTextMenu");
             this.toTextMenu.Name = "toTextMenu";
-            this.toTextMenu.Size = new System.Drawing.Size(32, 19);
             // 
             // keygenMenu
             // 
+            resources.ApplyResources(this.keygenMenu, "keygenMenu");
             this.keygenMenu.Name = "keygenMenu";
-            this.keygenMenu.Size = new System.Drawing.Size(57, 20);
-            this.keygenMenu.Text = "Кейген";
             this.keygenMenu.Click += new System.EventHandler(this.keygenMenu_Click);
             // 
             // pasteButton
             // 
-            this.pasteButton.Location = new System.Drawing.Point(250, 69);
+            resources.ApplyResources(this.pasteButton, "pasteButton");
             this.pasteButton.Name = "pasteButton";
-            this.pasteButton.Size = new System.Drawing.Size(75, 23);
-            this.pasteButton.TabIndex = 3;
-            this.pasteButton.Text = "Вставить";
             this.pasteButton.UseVisualStyleBackColor = true;
             this.pasteButton.Click += new System.EventHandler(this.pasteButton_Click);
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            resources.ApplyResources(this.button1, "button1");
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(12, 121);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 33);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "ОЧИСТИТЬ";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // aboutMenu
             // 
+            resources.ApplyResources(this.aboutMenu, "aboutMenu");
             this.aboutMenu.Name = "aboutMenu";
-            this.aboutMenu.Size = new System.Drawing.Size(65, 20);
-            this.aboutMenu.Text = "Справка";
             // 
             // about
             // 
+            resources.ApplyResources(this.about, "about");
             this.about.Name = "about";
-            this.about.Size = new System.Drawing.Size(152, 22);
-            this.about.Text = "Об авторе";
             this.about.Click += new System.EventHandler(this.about_Click);
             // 
             // menu
             // 
+            resources.ApplyResources(this.menu, "menu");
             this.menu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exit});
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(53, 20);
-            this.menu.Text = "Меню";
             // 
             // exit
             // 
+            resources.ApplyResources(this.exit, "exit");
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(180, 22);
-            this.exit.Text = "Выход";
             this.exit.Click += new System.EventHandler(this.exitMenuStrip_Click);
             // 
             // menuStrip
             // 
+            resources.ApplyResources(this.menuStrip, "menuStrip");
             this.menuStrip.BackColor = System.Drawing.Color.Transparent;
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menu,
             this.rejimi,
             this.keygenform,
             this.obavtore});
-            this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(327, 24);
-            this.menuStrip.TabIndex = 6;
-            this.menuStrip.Text = "menuStrip1";
             this.menuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip_ItemClicked);
             // 
             // rejimi
             // 
+            resources.ApplyResources(this.rejimi, "rejimi");
             this.rejimi.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gli4,
             this.zamena,
@@ -313,138 +282,118 @@
             this.fileGlitch,
             this.RandomizerButton});
             this.rejimi.Name = "rejimi";
-            this.rejimi.Size = new System.Drawing.Size(66, 20);
-            this.rejimi.Text = "Режимы";
             // 
             // gli4
             // 
+            resources.ApplyResources(this.gli4, "gli4");
             this.gli4.Checked = true;
             this.gli4.CheckOnClick = true;
             this.gli4.CheckState = System.Windows.Forms.CheckState.Checked;
             this.gli4.Name = "gli4";
-            this.gli4.Size = new System.Drawing.Size(165, 22);
-            this.gli4.Text = "Глитч";
             this.gli4.Click += new System.EventHandler(this.glitchMenu_Click);
             // 
             // zamena
             // 
+            resources.ApplyResources(this.zamena, "zamena");
             this.zamena.CheckOnClick = true;
             this.zamena.Name = "zamena";
-            this.zamena.Size = new System.Drawing.Size(165, 22);
-            this.zamena.Text = "Замена";
             this.zamena.Click += new System.EventHandler(this.replaceMenu_Click);
             // 
             // revers
             // 
+            resources.ApplyResources(this.revers, "revers");
             this.revers.CheckOnClick = true;
             this.revers.Name = "revers";
-            this.revers.Size = new System.Drawing.Size(165, 22);
-            this.revers.Text = "Реверс";
             this.revers.Click += new System.EventHandler(this.reverseMenu_Click);
             // 
             // генерацияToolStripMenuItem
             // 
+            resources.ApplyResources(this.генерацияToolStripMenuItem, "генерацияToolStripMenuItem");
             this.генерацияToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bukvi_i_cifri,
             this.bukvi,
             this.cifri});
             this.генерацияToolStripMenuItem.Name = "генерацияToolStripMenuItem";
-            this.генерацияToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.генерацияToolStripMenuItem.Text = "Генерация";
             // 
             // bukvi_i_cifri
             // 
+            resources.ApplyResources(this.bukvi_i_cifri, "bukvi_i_cifri");
             this.bukvi_i_cifri.CheckOnClick = true;
             this.bukvi_i_cifri.Name = "bukvi_i_cifri";
-            this.bukvi_i_cifri.Size = new System.Drawing.Size(160, 22);
-            this.bukvi_i_cifri.Text = "Буквы и цифры";
             this.bukvi_i_cifri.Click += new System.EventHandler(this.lettersAndNumbersMenu_Click);
             // 
             // bukvi
             // 
+            resources.ApplyResources(this.bukvi, "bukvi");
             this.bukvi.CheckOnClick = true;
             this.bukvi.Name = "bukvi";
-            this.bukvi.Size = new System.Drawing.Size(160, 22);
-            this.bukvi.Text = "Только буквы";
             this.bukvi.Click += new System.EventHandler(this.onlyLettersMenu_Click);
             // 
             // cifri
             // 
+            resources.ApplyResources(this.cifri, "cifri");
             this.cifri.Name = "cifri";
-            this.cifri.Size = new System.Drawing.Size(160, 22);
-            this.cifri.Text = "Только цифры";
             this.cifri.Click += new System.EventHandler(this.cifri_Click);
             // 
             // tobase
             // 
+            resources.ApplyResources(this.tobase, "tobase");
             this.tobase.CheckOnClick = true;
             this.tobase.Name = "tobase";
-            this.tobase.Size = new System.Drawing.Size(165, 22);
-            this.tobase.Text = "Текст > Base64";
             this.tobase.Click += new System.EventHandler(this.toBaseMenu_Click);
             // 
             // totext
             // 
+            resources.ApplyResources(this.totext, "totext");
             this.totext.CheckOnClick = true;
             this.totext.Name = "totext";
-            this.totext.Size = new System.Drawing.Size(165, 22);
-            this.totext.Text = "Base64 > Текст";
             this.totext.Click += new System.EventHandler(this.toTextMenu_Click);
             // 
             // manyText
             // 
+            resources.ApplyResources(this.manyText, "manyText");
             this.manyText.Name = "manyText";
-            this.manyText.Size = new System.Drawing.Size(165, 22);
-            this.manyText.Text = "Многотекстовик";
             this.manyText.Click += new System.EventHandler(this.manyText_Click);
             // 
             // fileGlitch
             // 
+            resources.ApplyResources(this.fileGlitch, "fileGlitch");
             this.fileGlitch.Name = "fileGlitch";
-            this.fileGlitch.Size = new System.Drawing.Size(165, 22);
-            this.fileGlitch.Text = "Файлоломатель";
             this.fileGlitch.Click += new System.EventHandler(this.fileGlitch_Click);
             // 
             // RandomizerButton
             // 
+            resources.ApplyResources(this.RandomizerButton, "RandomizerButton");
             this.RandomizerButton.Name = "RandomizerButton";
-            this.RandomizerButton.Size = new System.Drawing.Size(165, 22);
-            this.RandomizerButton.Text = "Рандомайзер";
             this.RandomizerButton.Click += new System.EventHandler(this.RandomizerButton_click);
             // 
             // keygenform
             // 
+            resources.ApplyResources(this.keygenform, "keygenform");
             this.keygenform.Name = "keygenform";
-            this.keygenform.Size = new System.Drawing.Size(57, 20);
-            this.keygenform.Text = "Кейген";
             this.keygenform.Click += new System.EventHandler(this.keygenform_Click);
             // 
             // obavtore
             // 
+            resources.ApplyResources(this.obavtore, "obavtore");
             this.obavtore.Name = "obavtore";
-            this.obavtore.Size = new System.Drawing.Size(80, 20);
-            this.obavtore.Text = "Об авторах";
             this.obavtore.Click += new System.EventHandler(this.about_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 27);
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(325, 36);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
             // tray
             // 
+            resources.ApplyResources(this.tray, "tray");
             this.tray.ContextMenuStrip = this.contextMenuStrip;
-            this.tray.Icon = ((System.Drawing.Icon)(resources.GetObject("tray.Icon")));
-            this.tray.Text = "Text\'O\'Glitch";
             this.tray.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.tray_MouseDoubleClick);
             // 
             // contextMenuStrip
             // 
+            resources.ApplyResources(this.contextMenuStrip, "contextMenuStrip");
             this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.работаСТекстомToolStripMenuItem,
             this.base64буфераToolStripMenuItem,
@@ -453,88 +402,78 @@
             this.toolStripSeparator1,
             this.exitTray});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(181, 142);
             // 
             // работаСТекстомToolStripMenuItem
             // 
+            resources.ApplyResources(this.работаСТекстомToolStripMenuItem, "работаСТекстомToolStripMenuItem");
             this.работаСТекстомToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.глитчToolStripMenuItem,
             this.replaceTray,
             this.reverseTray,
             this.generateTray});
             this.работаСТекстомToolStripMenuItem.Name = "работаСТекстомToolStripMenuItem";
-            this.работаСТекстомToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.работаСТекстомToolStripMenuItem.Text = "Работа с текстом";
             // 
             // глитчToolStripMenuItem
             // 
+            resources.ApplyResources(this.глитчToolStripMenuItem, "глитчToolStripMenuItem");
             this.глитчToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.glitchTray,
             this.lightGlitchTray});
             this.глитчToolStripMenuItem.Name = "глитчToolStripMenuItem";
-            this.глитчToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
-            this.глитчToolStripMenuItem.Text = "Глитч";
             // 
             // glitchTray
             // 
+            resources.ApplyResources(this.glitchTray, "glitchTray");
             this.glitchTray.Name = "glitchTray";
-            this.glitchTray.Size = new System.Drawing.Size(129, 22);
-            this.glitchTray.Text = "Обычный";
             this.glitchTray.Click += new System.EventHandler(this.glitchTray_Click);
             // 
             // lightGlitchTray
             // 
+            resources.ApplyResources(this.lightGlitchTray, "lightGlitchTray");
             this.lightGlitchTray.Name = "lightGlitchTray";
-            this.lightGlitchTray.Size = new System.Drawing.Size(129, 22);
-            this.lightGlitchTray.Text = "Light";
             this.lightGlitchTray.Click += new System.EventHandler(this.lightGlitchTray_Click);
             // 
             // replaceTray
             // 
+            resources.ApplyResources(this.replaceTray, "replaceTray");
             this.replaceTray.Name = "replaceTray";
-            this.replaceTray.Size = new System.Drawing.Size(132, 22);
-            this.replaceTray.Text = "Замена";
             this.replaceTray.Click += new System.EventHandler(this.replaceTray_Click);
             // 
             // reverseTray
             // 
+            resources.ApplyResources(this.reverseTray, "reverseTray");
             this.reverseTray.Name = "reverseTray";
-            this.reverseTray.Size = new System.Drawing.Size(132, 22);
-            this.reverseTray.Text = "Реверс";
             this.reverseTray.Click += new System.EventHandler(this.reverseTray_Click);
             // 
             // generateTray
             // 
+            resources.ApplyResources(this.generateTray, "generateTray");
             this.generateTray.Name = "generateTray";
-            this.generateTray.Size = new System.Drawing.Size(132, 22);
-            this.generateTray.Text = "Генерация";
             this.generateTray.Click += new System.EventHandler(this.generateTray_Click);
             // 
             // base64буфераToolStripMenuItem
             // 
+            resources.ApplyResources(this.base64буфераToolStripMenuItem, "base64буфераToolStripMenuItem");
             this.base64буфераToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toBaseTray,
             this.toTextTray});
             this.base64буфераToolStripMenuItem.Name = "base64буфераToolStripMenuItem";
-            this.base64буфераToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.base64буфераToolStripMenuItem.Text = "Base64 (буфер)";
             // 
             // toBaseTray
             // 
+            resources.ApplyResources(this.toBaseTray, "toBaseTray");
             this.toBaseTray.Name = "toBaseTray";
-            this.toBaseTray.Size = new System.Drawing.Size(154, 22);
-            this.toBaseTray.Text = "Текст > Base64";
             this.toBaseTray.Click += new System.EventHandler(this.toBaseTray_Click);
             // 
             // toTextTray
             // 
+            resources.ApplyResources(this.toTextTray, "toTextTray");
             this.toTextTray.Name = "toTextTray";
-            this.toTextTray.Size = new System.Drawing.Size(154, 22);
-            this.toTextTray.Text = "Base64 > Текст";
             this.toTextTray.Click += new System.EventHandler(this.toTextTray_Click);
             // 
             // symbolsTray
             // 
+            resources.ApplyResources(this.symbolsTray, "symbolsTray");
             this.symbolsTray.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2,
             this.toolStripMenuItem3,
@@ -544,110 +483,91 @@
             this.shrug,
             this.voidSymbol});
             this.symbolsTray.Name = "symbolsTray";
-            this.symbolsTray.Size = new System.Drawing.Size(180, 22);
-            this.symbolsTray.Text = "Символы";
             // 
             // toolStripMenuItem2
             // 
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(124, 22);
-            this.toolStripMenuItem2.Text = "™";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // toolStripMenuItem3
             // 
+            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(124, 22);
-            this.toolStripMenuItem3.Text = "©";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem4
             // 
+            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(124, 22);
-            this.toolStripMenuItem4.Text = "®";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
             // toolStripMenuItem5
             // 
+            resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(124, 22);
-            this.toolStripMenuItem5.Text = "✔";
             this.toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click);
             // 
             // lennyFace
             // 
+            resources.ApplyResources(this.lennyFace, "lennyFace");
             this.lennyFace.Name = "lennyFace";
-            this.lennyFace.Size = new System.Drawing.Size(124, 22);
-            this.lennyFace.Text = "( ͡° ͜ʖ ͡°)";
             this.lennyFace.Click += new System.EventHandler(this.lennyFace_Click);
             // 
             // shrug
             // 
+            resources.ApplyResources(this.shrug, "shrug");
             this.shrug.Name = "shrug";
-            this.shrug.Size = new System.Drawing.Size(124, 22);
-            this.shrug.Text = "¯\\_(ツ)_/¯";
             this.shrug.Click += new System.EventHandler(this.shrug_Click);
             // 
             // voidSymbol
             // 
+            resources.ApplyResources(this.voidSymbol, "voidSymbol");
             this.voidSymbol.Name = "voidSymbol";
-            this.voidSymbol.Size = new System.Drawing.Size(124, 22);
-            this.voidSymbol.Text = "Пустота";
             this.voidSymbol.Click += new System.EventHandler(this.voidSymbol_Click);
             // 
             // gUIToolStripMenuItem
             // 
+            resources.ApplyResources(this.gUIToolStripMenuItem, "gUIToolStripMenuItem");
             this.gUIToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.manyTextTray,
             this.fileGlitcherTray,
             this.randomizeTray});
             this.gUIToolStripMenuItem.Name = "gUIToolStripMenuItem";
-            this.gUIToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.gUIToolStripMenuItem.Text = "GUI";
             // 
             // manyTextTray
             // 
+            resources.ApplyResources(this.manyTextTray, "manyTextTray");
             this.manyTextTray.Name = "manyTextTray";
-            this.manyTextTray.Size = new System.Drawing.Size(180, 22);
-            this.manyTextTray.Text = "Многотекстовик";
             this.manyTextTray.Click += new System.EventHandler(this.manyTextTray_Click);
             // 
             // fileGlitcherTray
             // 
+            resources.ApplyResources(this.fileGlitcherTray, "fileGlitcherTray");
             this.fileGlitcherTray.Name = "fileGlitcherTray";
-            this.fileGlitcherTray.Size = new System.Drawing.Size(180, 22);
-            this.fileGlitcherTray.Text = "Файлоломатель";
             this.fileGlitcherTray.Click += new System.EventHandler(this.fileGlitcherTray_Click);
             // 
             // randomizeTray
             // 
+            resources.ApplyResources(this.randomizeTray, "randomizeTray");
             this.randomizeTray.Name = "randomizeTray";
-            this.randomizeTray.Size = new System.Drawing.Size(180, 22);
-            this.randomizeTray.Text = "Рандомайзер";
             this.randomizeTray.Click += new System.EventHandler(this.randomizeTray_Click);
             // 
             // toolStripSeparator1
             // 
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // exitTray
             // 
+            resources.ApplyResources(this.exitTray, "exitTray");
             this.exitTray.Name = "exitTray";
-            this.exitTray.Size = new System.Drawing.Size(180, 22);
-            this.exitTray.Text = "Выход";
             this.exitTray.Click += new System.EventHandler(this.exitTray_Click);
             // 
             // lightGlitch
             // 
-            this.lightGlitch.Appearance = System.Windows.Forms.Appearance.Button;
-            this.lightGlitch.AutoSize = true;
-            this.lightGlitch.Location = new System.Drawing.Point(285, 1);
+            resources.ApplyResources(this.lightGlitch, "lightGlitch");
             this.lightGlitch.Name = "lightGlitch";
-            this.lightGlitch.Size = new System.Drawing.Size(40, 23);
-            this.lightGlitch.TabIndex = 10;
-            this.lightGlitch.Text = "Light";
             this.lightGlitch.UseVisualStyleBackColor = true;
             // 
             // ramClean
@@ -657,9 +577,8 @@
             // 
             // TextOGlitchForm1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(327, 158);
             this.Controls.Add(this.lightGlitch);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip);
@@ -672,11 +591,9 @@
             this.Controls.Add(this.textOut);
             this.Controls.Add(this.textIn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip;
             this.MaximizeBox = false;
             this.Name = "TextOGlitchForm1";
-            this.Text = "Text\'O\'Glitch";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TextOGlitchForm1_FormClosing);
             this.Load += new System.EventHandler(this.TextOGlitchForm1_Load);
             this.Shown += new System.EventHandler(this.TextOGlitchForm1_Shown);
