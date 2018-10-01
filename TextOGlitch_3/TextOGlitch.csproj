@@ -113,29 +113,17 @@
     <Compile Include="trayForm.Designer.cs">
       <DependentUpon>trayForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FileGlitcher.en.resx">
-      <DependentUpon>FileGlitcher.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FileGlitcher.resx">
       <DependentUpon>FileGlitcher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FileGlitcher.ru.resx">
       <DependentUpon>FileGlitcher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="keygen.en.resx">
-      <DependentUpon>keygen.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="keygen.ru.resx">
       <DependentUpon>keygen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Randomizer.resx">
       <DependentUpon>Randomizer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TextOGlitchForm1.en-US.resx">
-      <DependentUpon>TextOGlitchForm1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TextOGlitchForm1.en.resx">
-      <DependentUpon>TextOGlitchForm1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TextOGlitchForm1.ru.resx">
       <DependentUpon>TextOGlitchForm1.cs</DependentUpon>

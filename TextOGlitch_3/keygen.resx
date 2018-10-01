@@ -117,17 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Symbols</value>
-  </data>
   <data name="&gt;&gt;blocks.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;massKeyOut.Name" xml:space="preserve">
     <value>massKeyOut</value>
-  </data>
-  <data name="saveFileDialog1.Filter" xml:space="preserve">
-    <value>Text file|*.txt|All files|*.*</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="saving.TabIndex" type="System.Int32, mscorlib">
@@ -149,11 +143,11 @@
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
   </data>
+  <data name="massgenlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="&gt;&gt;generationProcess.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -164,11 +158,14 @@
   <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="copyOne.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 23</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
   <data name="copyOne.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="copyOne.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 23</value>
   </data>
   <data name="keyOneOut.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 20</value>
@@ -230,17 +227,11 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="generateOneKey.Text" xml:space="preserve">
-    <value>Generate</value>
-  </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="startMassGen.Text" xml:space="preserve">
-    <value>Start!</value>
-  </data>
-  <data name="keyOneOut.Text" xml:space="preserve">
-    <value>One key</value>
+  <data name="symbols.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 408</value>
   </data>
   <data name="&gt;&gt;blocks.Name" xml:space="preserve">
     <value>blocks</value>
@@ -259,9 +250,6 @@
   </data>
   <data name="saving.Location" type="System.Drawing.Point, System.Drawing">
     <value>659, 5</value>
-  </data>
-  <data name="generateOneKey.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 427</value>
   </data>
   <data name="&gt;&gt;startMassGen.Parent" xml:space="preserve">
     <value>$this</value>
@@ -308,12 +296,6 @@
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="saving.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="symbols.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 408</value>
-  </data>
   <data name="&gt;&gt;keyOneOut.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -325,9 +307,6 @@
   </data>
   <data name="&gt;&gt;copyOne.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Number</value>
   </data>
   <data name="&gt;&gt;saving.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -353,9 +332,6 @@
   <data name="saving.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="saveFileDialog1.Title" xml:space="preserve">
-    <value>Save keys...</value>
-  </data>
   <data name="&gt;&gt;generateOneKey.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -377,14 +353,8 @@
   <data name="&gt;&gt;saving.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="massgenlabel.Text" xml:space="preserve">
-    <value>Mass generation</value>
-  </data>
   <data name="startMassGen.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 23</value>
-  </data>
-  <data name="copyOne.Text" xml:space="preserve">
-    <value>Copy</value>
   </data>
   <data name="&gt;&gt;massgenlabel.ZOrder" xml:space="preserve">
     <value>12</value>
@@ -588,14 +558,8 @@
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>311, 431</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Keys generation</value>
-  </data>
   <data name="&gt;&gt;symbols.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Blocks</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -618,8 +582,8 @@
   <data name="&gt;&gt;blocks.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="massgenlabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="generateOneKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 427</value>
   </data>
   <data name="&gt;&gt;keyOneOut.ZOrder" xml:space="preserve">
     <value>11</value>
@@ -660,13 +624,49 @@
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en</value>
-  </metadata>
-  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>en-US</value>
+  </data>
+  <data name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
-  </metadata>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Keys generation</value>
+  </data>
+  <data name="copyOne.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="generateOneKey.Text" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="keyOneOut.Text" xml:space="preserve">
+    <value>One key</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Blocks</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="massgenlabel.Text" xml:space="preserve">
+    <value>Mass generation</value>
+  </data>
+  <data name="saveFileDialog1.Filter" xml:space="preserve">
+    <value>Text file|*.txt|All files|*.*</value>
+  </data>
+  <data name="saveFileDialog1.Title" xml:space="preserve">
+    <value>Save keys...</value>
+  </data>
+  <data name="saving.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="startMassGen.Text" xml:space="preserve">
+    <value>Start!</value>
+  </data>
 </root>
