@@ -30,22 +30,25 @@ namespace TextOGlitch_3
         private void reversing()
         {
             CheckForIllegalCrossThreadCalls = false;
-            for (int i = 0; i < work.Length; i++)
-            {
-                //if (work[i] != '\r')
-                //{
-                    reverseWork[reverseWork.Length - i - 1] = work[i];
-                    label1.Text = "Реверснуто символов: " + (i + 1) + "/" + work.Length;
-                //}
-                //else
-                //{
-                //    reverseWork[reverseWork.Length - i - 1] = work[i + 1];
-                //    reverseWork[reverseWork.Length - i - 2] = work[i];
-                //    i++;
-                //}
-                label1.Update();
-            }
-            output = new string(reverseWork);
+            ////for (int i = 0; i < work.Length; i++)
+            ////{
+            //if (work[i] != '\r')
+            //{
+            ////    reverseWork[reverseWork.Length - i - 1] = work[i];
+            ////    label1.Text = "Реверснуто символов: " + (i + 1) + "/" + work.Length;
+            //}
+            //else
+            //{
+            //    reverseWork[reverseWork.Length - i - 1] = work[i + 1];
+            //    reverseWork[reverseWork.Length - i - 2] = work[i];
+            //    i++;
+            //}
+            ////label1.Update();
+            ////}
+            output = new string(work);
+            output = output.Trim('\r');
+            output = Reverse.Text(output);
+            ////output = new string(reverseWork);
             richTextBox2.Text = output;
             label1.Text = "Готово!";
             richTextBox1.Enabled = true;
