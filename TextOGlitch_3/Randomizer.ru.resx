@@ -117,40 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="massgenlabel.Text" xml:space="preserve">
-    <value>Массовая генерация</value>
-  </data>
-  <data name="keyOneOut.Text" xml:space="preserve">
-    <value>Одиночный ключ</value>
-  </data>
-  <data name="generateOneKey.Text" xml:space="preserve">
-    <value>Сгенерировать</value>
-  </data>
-  <data name="copyOne.Text" xml:space="preserve">
-    <value>Скопировать</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Символов</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Блоков</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Количество</value>
-  </data>
-  <data name="startMassGen.Text" xml:space="preserve">
-    <value>Начать!</value>
-  </data>
-  <data name="saving.Text" xml:space="preserve">
-    <value>Сохранить</value>
-  </data>
-  <data name="saveFileDialog1.Filter" xml:space="preserve">
-    <value>Текстовый файл|*.txt|Все файлы|*.*</value>
-  </data>
-  <data name="saveFileDialog1.Title" xml:space="preserve">
-    <value>Сохранить ключи...</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Генерация ключей</value>
+    <value>Рандомайзер</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Погнали</value>
   </data>
 </root>

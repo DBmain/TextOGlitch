@@ -125,8 +125,14 @@
     <EmbeddedResource Include="Randomizer.resx">
       <DependentUpon>Randomizer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Randomizer.ru.resx">
+      <DependentUpon>Randomizer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TextOGlitchForm1.ru.resx">
       <DependentUpon>TextOGlitchForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="trayForm.ru.resx">
+      <DependentUpon>trayForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WorkWithBigText.resx">
       <DependentUpon>WorkWithBigText.cs</DependentUpon>
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="trayForm.resx">
       <DependentUpon>trayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkWithBigText.ru.resx">
+      <DependentUpon>WorkWithBigText.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="bin\Debug\aaaa.xm" />
     <None Include="bin\Debug\aaab.xm" />

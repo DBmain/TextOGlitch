@@ -117,40 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="massgenlabel.Text" xml:space="preserve">
-    <value>Массовая генерация</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Многотекстовик</value>
   </data>
-  <data name="keyOneOut.Text" xml:space="preserve">
-    <value>Одиночный ключ</value>
+  <data name="copy.Text" xml:space="preserve">
+    <value>Копировать</value>
   </data>
-  <data name="generateOneKey.Text" xml:space="preserve">
-    <value>Сгенерировать</value>
+  <data name="glitchMass.Text" xml:space="preserve">
+    <value>Глитч</value>
   </data>
-  <data name="copyOne.Text" xml:space="preserve">
-    <value>Скопировать</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Символов</value>
+  <data name="glitchOneStringCheckBox.Text" xml:space="preserve">
+    <value>Одной строкой</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Блоков</value>
+    <value>Кол-во</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Количество</value>
+  <data name="paste.Text" xml:space="preserve">
+    <value>Вставить</value>
   </data>
-  <data name="startMassGen.Text" xml:space="preserve">
-    <value>Начать!</value>
+  <data name="replaceMass.Text" xml:space="preserve">
+    <value>Замена</value>
   </data>
-  <data name="saving.Text" xml:space="preserve">
-    <value>Сохранить</value>
+  <data name="reverseMass.Text" xml:space="preserve">
+    <value>Реверс</value>
   </data>
-  <data name="saveFileDialog1.Filter" xml:space="preserve">
-    <value>Текстовый файл|*.txt|Все файлы|*.*</value>
-  </data>
-  <data name="saveFileDialog1.Title" xml:space="preserve">
-    <value>Сохранить ключи...</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Генерация ключей</value>
+  <data name="startMass.Text" xml:space="preserve">
+    <value>Начать</value>
   </data>
 </root>
