@@ -69,7 +69,9 @@
             this.fileGlitch = new System.Windows.Forms.ToolStripMenuItem();
             this.RandomizerButton = new System.Windows.Forms.ToolStripMenuItem();
             this.keygenform = new System.Windows.Forms.ToolStripMenuItem();
-            this.obavtore = new System.Windows.Forms.ToolStripMenuItem();
+            this.help = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutMessage = new System.Windows.Forms.ToolStripMenuItem();
+            this.english = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tray = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -264,7 +266,7 @@
             this.menu,
             this.rejimi,
             this.keygenform,
-            this.obavtore});
+            this.help});
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip_ItemClicked);
             // 
@@ -373,11 +375,25 @@
             this.keygenform.Name = "keygenform";
             this.keygenform.Click += new System.EventHandler(this.keygenform_Click);
             // 
-            // obavtore
+            // help
             // 
-            resources.ApplyResources(this.obavtore, "obavtore");
-            this.obavtore.Name = "obavtore";
-            this.obavtore.Click += new System.EventHandler(this.about_Click);
+            resources.ApplyResources(this.help, "help");
+            this.help.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutMessage,
+            this.english});
+            this.help.Name = "help";
+            // 
+            // aboutMessage
+            // 
+            resources.ApplyResources(this.aboutMessage, "aboutMessage");
+            this.aboutMessage.Name = "aboutMessage";
+            this.aboutMessage.Click += new System.EventHandler(this.aboutMessage_click);
+            // 
+            // english
+            // 
+            resources.ApplyResources(this.english, "english");
+            this.english.Name = "english";
+            this.english.Click += new System.EventHandler(this.english_Click);
             // 
             // pictureBox1
             // 
@@ -643,7 +659,7 @@
         private System.Windows.Forms.ToolStripMenuItem tobase;
         private System.Windows.Forms.ToolStripMenuItem totext;
         private System.Windows.Forms.ToolStripMenuItem keygenform;
-        private System.Windows.Forms.ToolStripMenuItem obavtore;
+        private System.Windows.Forms.ToolStripMenuItem help;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.NotifyIcon tray;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip;
@@ -677,6 +693,8 @@
         private System.Windows.Forms.ToolStripMenuItem randomizeTray;
         private System.Windows.Forms.ToolStripMenuItem shrug;
         private System.Windows.Forms.ToolStripMenuItem voidSymbol;
+        private System.Windows.Forms.ToolStripMenuItem aboutMessage;
+        private System.Windows.Forms.ToolStripMenuItem english;
     }
 }
 
