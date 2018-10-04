@@ -101,6 +101,7 @@
             this.exitTray = new System.Windows.Forms.ToolStripMenuItem();
             this.lightGlitch = new System.Windows.Forms.CheckBox();
             this.ramClean = new System.Windows.Forms.Timer(this.components);
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             ((System.ComponentModel.ISupportInitialize)(this.glitchExtent)).BeginInit();
             this.menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -280,6 +281,7 @@
             this.generationMenu,
             this.tobase,
             this.totext,
+            this.toolStripSeparator2,
             this.manyText,
             this.fileGlitch,
             this.RandomizerButton});
@@ -591,6 +593,11 @@
             this.ramClean.Interval = 60000;
             this.ramClean.Tick += new System.EventHandler(this.ramClean_Tick);
             // 
+            // toolStripSeparator2
+            // 
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            // 
             // TextOGlitchForm1
             // 
             resources.ApplyResources(this, "$this");
@@ -695,6 +702,7 @@
         private System.Windows.Forms.ToolStripMenuItem voidSymbol;
         private System.Windows.Forms.ToolStripMenuItem aboutMessage;
         private System.Windows.Forms.ToolStripMenuItem english;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
     }
 }
 

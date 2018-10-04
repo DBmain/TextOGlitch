@@ -76,21 +76,16 @@
     <Compile Include="FileGlitcher.Designer.cs">
       <DependentUpon>FileGlitcher.cs</DependentUpon>
     </Compile>
-    <Compile Include="Translate.ru - Копировать.Designer.cs">
-      <DependentUpon>Translate.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Translate.ru.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Translate.ru.resx</DependentUpon>
-    </Compile>
     <Compile Include="Randomizer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Randomizer.Designer.cs">
       <DependentUpon>Randomizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Translate.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Translate.resx</DependentUpon>
     </Compile>
     <Compile Include="WorkWithBigText.cs">
       <SubType>Form</SubType>
@@ -132,14 +127,6 @@
     <EmbeddedResource Include="keygen.ru.resx">
       <DependentUpon>keygen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Translate.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Translate.ru - Копировать.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Translate.ru.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Translate.ru.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="Randomizer.resx">
       <DependentUpon>Randomizer.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +136,11 @@
     <EmbeddedResource Include="TextOGlitchForm1.ru.resx">
       <DependentUpon>TextOGlitchForm1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Translate.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Translate.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translate.ru.resx" />
     <EmbeddedResource Include="trayForm.ru.resx">
       <DependentUpon>trayForm.cs</DependentUpon>
     </EmbeddedResource>

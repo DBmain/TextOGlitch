@@ -144,12 +144,6 @@ https://github.com/DBmain/TextOGlitch</value>
   <data name="decodedFromBaseTray2" xml:space="preserve">
     <value>Получившийся текст: "</value>
   </data>
-  <data name="diggits_letters" xml:space="preserve">
-    <value>Цифры и буквы</value>
-  </data>
-  <data name="digits" xml:space="preserve">
-    <value>Цифры</value>
-  </data>
   <data name="done" xml:space="preserve">
     <value>Готово!</value>
   </data>
@@ -198,12 +192,6 @@ https://github.com/DBmain/TextOGlitch</value>
   <data name="fg_waiting" xml:space="preserve">
     <value>Ждите! Мы в процессе...</value>
   </data>
-  <data name="generate" xml:space="preserve">
-    <value>Генерация</value>
-  </data>
-  <data name="glitch" xml:space="preserve">
-    <value>Глитч</value>
-  </data>
   <data name="glitchExtent" xml:space="preserve">
     <value>Степень глитча:</value>
   </data>
@@ -222,29 +210,14 @@ https://github.com/DBmain/TextOGlitch</value>
   <data name="itsNotBase2" xml:space="preserve">
     <value>Не удалось декодировать текст, потому что это не Base64.</value>
   </data>
-  <data name="keysGenerated" xml:space="preserve">
-    <value>Ключей сгенерировано: </value>
-  </data>
   <data name="lenface" xml:space="preserve">
     <value>Lenny Face скопирован в буфер обмена!</value>
-  </data>
-  <data name="letters" xml:space="preserve">
-    <value>Буквы</value>
-  </data>
-  <data name="lightGlitch" xml:space="preserve">
-    <value>Light-глитч</value>
   </data>
   <data name="mark" xml:space="preserve">
     <value>Значок ✔ скопирован в буфер обмена!</value>
   </data>
   <data name="of" xml:space="preserve">
     <value>из</value>
-  </data>
-  <data name="replace" xml:space="preserve">
-    <value>Замена</value>
-  </data>
-  <data name="reverse" xml:space="preserve">
-    <value>Реверс</value>
   </data>
   <data name="shrug" xml:space="preserve">
     <value>¯\_(ツ)_/¯ скопирован в буфер обмена!</value>
@@ -260,5 +233,32 @@ https://github.com/DBmain/TextOGlitch</value>
   </data>
   <data name="wordSize" xml:space="preserve">
     <value>Размер слова:</value>
+  </data>
+  <data name="diggits_letters" xml:space="preserve">
+    <value>Цифры и буквы</value>
+  </data>
+  <data name="digits" xml:space="preserve">
+    <value>Цифры</value>
+  </data>
+  <data name="generate" xml:space="preserve">
+    <value>Сгенерировать</value>
+  </data>
+  <data name="glitch" xml:space="preserve">
+    <value>Глитч</value>
+  </data>
+  <data name="keysGenerated" xml:space="preserve">
+    <value>Ключей сгенерировано: </value>
+  </data>
+  <data name="letters" xml:space="preserve">
+    <value>Буквы</value>
+  </data>
+  <data name="lightGlitch" xml:space="preserve">
+    <value>Light-глитч</value>
+  </data>
+  <data name="replace" xml:space="preserve">
+    <value>Замена</value>
+  </data>
+  <data name="reverse" xml:space="preserve">
+    <value>Реверс</value>
   </data>
 </root>

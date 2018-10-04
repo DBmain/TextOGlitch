@@ -155,6 +155,9 @@
   <data name="exitTray.Size" type="System.Drawing.Size, System.Drawing">
     <value>168, 22</value>
   </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>327, 158</value>
+  </data>
   <data name="&gt;&gt;textIn.Name" xml:space="preserve">
     <value>textIn</value>
   </data>
@@ -185,8 +188,8 @@
   <data name="bukvi.Text" xml:space="preserve">
     <value>Only letters</value>
   </data>
-  <data name="lennyFace.Text" xml:space="preserve">
-    <value>( ͡° ͜ʖ ͡°)</value>
+  <data name="&gt;&gt;copyButton.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="generateMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 19</value>
@@ -202,6 +205,9 @@
   </data>
   <data name="textOut.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 95</value>
+  </data>
+  <data name="&gt;&gt;bukvi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;zamena.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -257,8 +263,8 @@
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="aboutMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="&gt;&gt;lightGlitch.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;glitchTray.Name" xml:space="preserve">
     <value>glitchTray</value>
@@ -269,8 +275,8 @@
   <data name="&gt;&gt;tobase.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Glitch extent:</value>
+  <data name="reverseTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
   </data>
   <data name="&gt;&gt;randomizeTray.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -468,6 +474,9 @@
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
+  <data name="&gt;&gt;help.Name" xml:space="preserve">
+    <value>help</value>
+  </data>
   <data name="start.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, 122</value>
   </data>
@@ -478,9 +487,6 @@
     <value>180, 22</value>
   </data>
   <data name="&gt;&gt;обАвторахToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toTextTray.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menu.Text" xml:space="preserve">
@@ -531,11 +537,14 @@
   <data name="pasteButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;start.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;gli4.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="help.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
   <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -569,9 +578,6 @@
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
-  </data>
-  <data name="symbolsTray.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 22</value>
   </data>
   <data name="generateTray.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 22</value>
@@ -648,6 +654,9 @@
   <data name="&gt;&gt;textOut.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 36</value>
+  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -696,6 +705,9 @@
   <data name="&gt;&gt;rejimi.Name" xml:space="preserve">
     <value>rejimi</value>
   </data>
+  <data name="&gt;&gt;глитчToolStripMenuItem.Name" xml:space="preserve">
+    <value>глитчToolStripMenuItem</value>
+  </data>
   <data name="copyButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, 93</value>
   </data>
@@ -708,128 +720,8 @@
   <data name="aboutMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 20</value>
   </data>
-  <data name="&gt;&gt;language.Name" xml:space="preserve">
-    <value>language</value>
-  </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
-  </data>
-  <data name="toBaseTray.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 22</value>
-  </data>
-  <data name="&gt;&gt;языкToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="режимыToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
-  </data>
-  <data name="&gt;&gt;revers.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ramClean.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lettersAndNumbersMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
-  </data>
-  <data name="&gt;&gt;toTextMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;работаСТекстомToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;language_strip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toTextTray.Name" xml:space="preserve">
-    <value>toTextTray</value>
-  </data>
-  <data name="&gt;&gt;generateMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="keygenMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="exit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
-    <value>toolStripMenuItem5</value>
-  </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 22</value>
-  </data>
-  <data name="&gt;&gt;shrug.Name" xml:space="preserve">
-    <value>shrug</value>
-  </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 6.75pt, style=Bold, Italic</value>
-  </data>
-  <data name="zamena.Text" xml:space="preserve">
-    <value>Replace</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;about.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="textIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 69</value>
-  </data>
-  <data name="&gt;&gt;symbolsTray.Name" xml:space="preserve">
-    <value>symbolsTray</value>
-  </data>
-  <data name="symbolsTray.Text" xml:space="preserve">
-    <value>Symbols</value>
-  </data>
-  <data name="aboutMessage.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="glitchContextMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="textIn.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;aboutMessage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 6</value>
-  </data>
-  <data name="&gt;&gt;language_stri.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;workWithTextMenu.Name" xml:space="preserve">
-    <value>workWithTextMenu</value>
-  </data>
-  <data name="&gt;&gt;keygenform.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;работаСТекстомToolStripMenuItem.Name" xml:space="preserve">
-    <value>работаСТекстомToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;exit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;textIn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toBaseMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 19</value>
-  </data>
-  <data name="глитчToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1003,6 +895,123 @@
         AAAAA4AA8AAAAAAHgADwAAAAAA+AAP//////74AA////////gAA=
 </value>
   </data>
+  <data name="toBaseTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="&gt;&gt;языкToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="режимыToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="&gt;&gt;revers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ramClean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lettersAndNumbersMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="&gt;&gt;toTextMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;работаСТекстомToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;language_strip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toTextTray.Name" xml:space="preserve">
+    <value>toTextTray</value>
+  </data>
+  <data name="&gt;&gt;generateMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="keygenMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem5.Name" xml:space="preserve">
+    <value>toolStripMenuItem5</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="&gt;&gt;shrug.Name" xml:space="preserve">
+    <value>shrug</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6.75pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;start.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="zamena.Text" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="&gt;&gt;about.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 69</value>
+  </data>
+  <data name="&gt;&gt;symbolsTray.Name" xml:space="preserve">
+    <value>symbolsTray</value>
+  </data>
+  <data name="symbolsTray.Text" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="aboutMessage.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="glitchContextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="&gt;&gt;aboutMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 6</value>
+  </data>
+  <data name="&gt;&gt;language_stri.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;workWithTextMenu.Name" xml:space="preserve">
+    <value>workWithTextMenu</value>
+  </data>
+  <data name="&gt;&gt;keygenform.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;работаСТекстомToolStripMenuItem.Name" xml:space="preserve">
+    <value>работаСТекстомToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="toBaseMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="глитчToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Glitch extent:</value>
+  </data>
   <data name="toolStripMenuItem5.Text" xml:space="preserve">
     <value>✔</value>
   </data>
@@ -1097,8 +1106,11 @@
   <data name="toBaseTray.Text" xml:space="preserve">
     <value>Text &gt; Base64</value>
   </data>
-  <data name="&gt;&gt;режимыToolStripMenuItem.Name" xml:space="preserve">
-    <value>режимыToolStripMenuItem</value>
+  <data name="language.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="bukvi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
   </data>
   <data name="&gt;&gt;button1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1118,8 +1130,8 @@
   <data name="manyText.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 22</value>
   </data>
-  <data name="&gt;&gt;copyButton.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="textIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 20</value>
   </data>
   <data name="&gt;&gt;zamena.Name" xml:space="preserve">
     <value>zamena</value>
@@ -1142,14 +1154,8 @@
   <data name="start.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="textIn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 20</value>
-  </data>
   <data name="&gt;&gt;glitchExtent.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;workWithTextMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="gUIToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>168, 22</value>
@@ -1178,11 +1184,14 @@
   <data name="&gt;&gt;lennyFace.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="about.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
   <data name="fileGlitch.Text" xml:space="preserve">
     <value>Fileglitcher</value>
   </data>
-  <data name="language.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="textIn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="base64Menu.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
@@ -1205,8 +1214,11 @@
   <data name="menuStrip.Text" xml:space="preserve">
     <value>menuStrip1</value>
   </data>
-  <data name="&gt;&gt;bukvi_i_cifri.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lennyFace.Text" xml:space="preserve">
+    <value>( ͡° ͜ʖ ͡°)</value>
   </data>
   <data name="textOut.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1217,20 +1229,23 @@
   <data name="&gt;&gt;manyText.Name" xml:space="preserve">
     <value>manyText</value>
   </data>
-  <data name="lightGlitchTray.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 22</value>
-  </data>
   <data name="&gt;&gt;pasteButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lettersAndNumbersMenu.Name" xml:space="preserve">
     <value>lettersAndNumbersMenu</value>
   </data>
+  <data name="aboutMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
   <data name="&gt;&gt;toolStripMenuItem5.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cifri.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bukvi.Name" xml:space="preserve">
+    <value>bukvi</value>
   </data>
   <data name="fileGlitcherTray.Text" xml:space="preserve">
     <value>Fileglitcher</value>
@@ -1255,9 +1270,6 @@
   </data>
   <data name="&gt;&gt;start.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;onlyLettersMenu.Name" xml:space="preserve">
-    <value>onlyLettersMenu</value>
   </data>
   <data name="&gt;&gt;about.Name" xml:space="preserve">
     <value>about</value>
@@ -1352,9 +1364,6 @@
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="&gt;&gt;lightGlitch.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="&gt;&gt;manyTextTray.Name" xml:space="preserve">
     <value>manyTextTray</value>
   </data>
@@ -1394,17 +1403,17 @@
   <data name="exitMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 19</value>
   </data>
-  <data name="&gt;&gt;bukvi.Name" xml:space="preserve">
-    <value>bukvi</value>
+  <data name="symbolsTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>327, 158</value>
+  <data name="&gt;&gt;workWithTextMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
     <value>englishToolStripMenuItem</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>325, 36</value>
+  <data name="lightGlitchTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
   </data>
   <data name="&gt;&gt;symbolsTray.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1445,8 +1454,8 @@
   <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="about.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+  <data name="&gt;&gt;toTextTray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;copyButton.Name" xml:space="preserve">
     <value>copyButton</value>
@@ -1568,6 +1577,9 @@
   <data name="&gt;&gt;cifri.Name" xml:space="preserve">
     <value>cifri</value>
   </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
   <data name="&gt;&gt;english.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1580,11 +1592,11 @@
   <data name="&gt;&gt;reverseMenu.Name" xml:space="preserve">
     <value>reverseMenu</value>
   </data>
-  <data name="reverseTray.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+  <data name="&gt;&gt;bukvi_i_cifri.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;глитчToolStripMenuItem.Name" xml:space="preserve">
-    <value>глитчToolStripMenuItem</value>
+  <data name="&gt;&gt;textIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;fileGlitcherTray.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1595,8 +1607,8 @@
   <data name="generationMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="&gt;&gt;bukvi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;режимыToolStripMenuItem.Name" xml:space="preserve">
+    <value>режимыToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;toBaseTray.Name" xml:space="preserve">
     <value>toBaseTray</value>
@@ -1604,37 +1616,34 @@
   <data name="reverseTray.Text" xml:space="preserve">
     <value>Reverse</value>
   </data>
-  <data name="bukvi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+  <data name="&gt;&gt;onlyLettersMenu.Name" xml:space="preserve">
+    <value>onlyLettersMenu</value>
   </data>
   <data name="&gt;&gt;glitchContextMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;help.Name" xml:space="preserve">
-    <value>help</value>
+  <data name="&gt;&gt;language.Name" xml:space="preserve">
+    <value>language</value>
   </data>
   <data name="&gt;&gt;aboutMenu.Name" xml:space="preserve">
     <value>aboutMenu</value>
   </data>
-  <data name="tray.TrayLocation" type="System.Drawing.Point, System.Drawing">
-    <value>125, 17</value>
-  </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>ru</value>
-  </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
-    <value>17, 17</value>
-  </data>
-  <data name="ramClean.TrayLocation" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="ramClean.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>394, 10</value>
-  </data>
-  <data name="contextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing">
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="tray.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>125, 17</value>
+  </metadata>
+  <metadata name="contextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>245, 10</value>
-  </data>
-  <data name="help.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
+  </metadata>
 </root>

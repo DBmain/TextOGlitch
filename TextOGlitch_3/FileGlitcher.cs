@@ -2,6 +2,7 @@
 using System.IO;
 using System.Threading;
 using System.Windows.Forms;
+using TextOGlitch_3;
 
 namespace FileGlitcherGUI
 {
@@ -38,10 +39,11 @@ namespace FileGlitcherGUI
 
         private void working()
         {
+            TextOGlitchForm1.threadLocalization();
             try
             {
                 CheckForIllegalCrossThreadCalls = false;
-                label7.Text = "Ждите! Мы в процессе...";
+                label7.Text = Translate.fg_waiting;
                 openFile.Enabled = false;
                 button2.Enabled = false;
                 start.Enabled = false;
@@ -65,7 +67,7 @@ namespace FileGlitcherGUI
                     a = File.ReadAllBytes(source);
                     if (numericUpDown2.Value >= (decimal)a.Length)
                     {
-                        MessageBox.Show("Начальный байт больше/равен размеру файла. Укажите начальную позицию меньше.", "Внимание");
+                        MessageBox.Show(Translate.fg_startByteWarning, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         try
                         {
                             EmptyWorkingSet(System.Diagnostics.Process.GetCurrentProcess().Handle);
@@ -77,7 +79,7 @@ namespace FileGlitcherGUI
                     }
                     if (a.Length < 10000)
                     {
-                        MessageBox.Show("Файл слишком маленький для его обработки.", "Внимание");
+                        MessageBox.Show(Translate.fg_fileTooBig, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         try
                         {
                             EmptyWorkingSet(System.Diagnostics.Process.GetCurrentProcess().Handle);
@@ -91,7 +93,7 @@ namespace FileGlitcherGUI
                     outByte = a;
                     if(length < (int)numericUpDown4.Value)
                     {
-                        MessageBox.Show("Несоответствие пропорций и размера файла!", "Предупреждение");
+                        MessageBox.Show(Translate.fg_mismatchOfSizes, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         break;
                     }
                     int symbolsToReplace = length / (int)numericUpDown4.Value;
@@ -245,7 +247,7 @@ namespace FileGlitcherGUI
                     } while (true);
                     label10.Visible = false;
                     label10.Update();
-                    label7.Text = "Файлов готово: " + f + " из " + numericUpDown1.Value.ToString() + ".";
+                    label7.Text = Translate.fg_filesReady + f + Translate.of + numericUpDown1.Value.ToString() + ".";
                     try
                     {
                         EmptyWorkingSet(System.Diagnostics.Process.GetCurrentProcess().Handle);
@@ -257,7 +259,7 @@ namespace FileGlitcherGUI
             }
             catch (OutOfMemoryException)
             {
-                MessageBox.Show("Файл слишком большой, и его дальнейшая обработка приведёт к ошибке.\nПопробуйте взять процент меньше.", "Внимание");
+                MessageBox.Show(Translate.fg_fileTooBig, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 try
                 {
                     EmptyWorkingSet(System.Diagnostics.Process.GetCurrentProcess().Handle);
@@ -282,7 +284,7 @@ namespace FileGlitcherGUI
             oneBlockButton.Enabled = true;
             randomBlockButton.Enabled = true;
             progressBar1.Value = 100;
-            label7.Text = "Готово!";
+            label7.Text = Translate.done;
             return;
         }
 
@@ -305,7 +307,7 @@ namespace FileGlitcherGUI
                 capacity = new FileInfo(openFileDialog1.FileName);
                 if(capacity.Length > 524288000)
                 {
-                    MessageBox.Show("В прогрмме установлено ограничение - глитч файлов только до 500 мегабайт, иначе ваш комп взорвётся. Проверено.", "АТТЕНШН АЛЯРМ");
+                    MessageBox.Show(Translate.fg_limit, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     //outputPath.Text = "";
                     //sourcePath.Text = "";
                     return;
@@ -325,7 +327,7 @@ namespace FileGlitcherGUI
             length = a.Length;
             //if (length < 100000) blockGlitching.Enabled = false;
             /*else*/ blockGlitching.Enabled = true;
-            fileLenght.Text = "Размер файла = " + length;
+            fileLenght.Text = Translate.fg_fileSize + length;
             numericUpDown5.Enabled = true;
             numericUpDown6.Enabled = true;
             numericUpDown7.Enabled = true;
@@ -341,7 +343,7 @@ namespace FileGlitcherGUI
             //}
             if (!File.Exists(sourcePath.Text) || !Directory.Exists(outputPath.Text))
             {
-                MessageBox.Show("Что-то не так с путями к файлам!", "Внимание!");
+                MessageBox.Show(Translate.fg_pathError, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             if (blockGlitching.Checked)
@@ -353,11 +355,11 @@ namespace FileGlitcherGUI
                         decimal value = Math.Floor(length/numericUpDown5.Value);
                         if (value == 0)
                         {
-                            MessageBox.Show("Выберите меньшее количество ломаемых байт в блоке!", "Ошибка!");
+                            MessageBox.Show(Translate.fg_takeLessGlitchingBytes, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                         else
                         {
-                            MessageBox.Show("Выберите меньшее количество ломаемых блоков! Максимальное в данном случае - " + value, "Ошибка!");
+                            MessageBox.Show(Translate.fg_takeLessGlitchingBlocks + value, "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             numericUpDown4.Value = value;
                         }
                         return;
@@ -384,11 +386,11 @@ namespace FileGlitcherGUI
                         decimal value = Math.Floor(length / numericUpDown7.Value);
                         if (value == 0)
                         {
-                            MessageBox.Show("Выберите меньшее количество ломаемых байт в блоке!", "Ошибка!");
+                            MessageBox.Show(Translate.fg_takeLessGlitchingBytes, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                         else
                         {
-                            MessageBox.Show("Выберите меньшее количество ломаемых блоков! Максимальное в данном случае - " + value, "Ошибка!");
+                            MessageBox.Show(Translate.fg_takeLessGlitchingBlocks + value, "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             numericUpDown4.Value = value;
                         }
                         return;
@@ -467,7 +469,7 @@ namespace FileGlitcherGUI
                 numericUpDown5.Enabled = true;
                 numericUpDown6.Enabled = true;
                 numericUpDown7.Enabled = true;
-                label6.Text = "Количество ломаемых блоков:";
+                label6.Text = Translate.fg_numberOfGlitchingBlocks;
                 numericUpDown4.Location = new System.Drawing.Point(182, 100);
                 numericUpDown4.Value = length / 1000;
 
@@ -483,7 +485,7 @@ namespace FileGlitcherGUI
                 numericUpDown5.Enabled = false;
                 numericUpDown6.Enabled = false;
                 numericUpDown7.Enabled = false;
-                label6.Text = "Пропорции ломания (1 - полностью, 100 - 1/100 etc)";
+                label6.Text = Translate.fg_glitchingRatio;
                 numericUpDown4.Location = new System.Drawing.Point(286, 100);
                 numericUpDown4.Value = length / 10;
                 label9.Visible = false;

@@ -450,4 +450,13 @@
   <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
     <value>ru</value>
   </data>
+  <data name="radioButton1.Text" xml:space="preserve">
+    <value>Letters+Digits</value>
+  </data>
+  <data name="radioButton2.Text" xml:space="preserve">
+    <value>Letters</value>
+  </data>
+  <data name="radioButton3.Text" xml:space="preserve">
+    <value>Digits</value>
+  </data>
 </root>

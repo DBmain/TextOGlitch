@@ -119,146 +119,146 @@
   </resheader>
   <data name="about" xml:space="preserve">
     <value>Text'O'Glitch Experimental.
-Написано на C#. Автор и код: t.me/russkiypoopforever.
-Графика: t.me/naturalnonsense.
+Writen on C#. Author and code: t.me/russkiypoopforever.
+Graphics: t.me/naturalnonsense.
 https://github.com/DBmain/TextOGlitch</value>
   </data>
   <data name="clipboardEmpty" xml:space="preserve">
-    <value>Буфер пуст!</value>
+    <value>Clipboard is empty!</value>
   </data>
   <data name="convertedToBaseTray" xml:space="preserve">
-    <value>Текст сконвертирован в Base64!</value>
+    <value>Text converted to Base64!</value>
   </data>
   <data name="copiedToClipboard" xml:space="preserve">
-    <value> Скопирован в буфер обмена.</value>
+    <value> Copied to clipboard.</value>
   </data>
   <data name="copyleft" xml:space="preserve">
-    <value>Значок ® скопирован в буфер обмена!</value>
+    <value>® copied to the clipboard!</value>
   </data>
   <data name="copyright" xml:space="preserve">
-    <value>Значок © скопирован в буфер обмена!</value>
+    <value>© copied to the clipboard!</value>
   </data>
   <data name="decodedFromBaseTray" xml:space="preserve">
-    <value>Текст декодирован!</value>
+    <value>Text decoded!</value>
   </data>
   <data name="decodedFromBaseTray2" xml:space="preserve">
-    <value>Получившийся текст: "</value>
-  </data>
-  <data name="diggits_letters" xml:space="preserve">
-    <value>Цифры и буквы</value>
-  </data>
-  <data name="digits" xml:space="preserve">
-    <value>Цифры</value>
+    <value>Result is: "</value>
   </data>
   <data name="done" xml:space="preserve">
-    <value>Готово!</value>
+    <value>Done!</value>
   </data>
   <data name="doneWithDots" xml:space="preserve">
-    <value> готово...</value>
+    <value> done...</value>
   </data>
   <data name="error" xml:space="preserve">
-    <value>Ошибка!</value>
+    <value>Error!</value>
   </data>
   <data name="fg_fileSize" xml:space="preserve">
-    <value>Размер файла = </value>
+    <value>File size = </value>
   </data>
   <data name="fg_filesReady" xml:space="preserve">
-    <value>Файлов готово:</value>
+    <value>Files ready:</value>
   </data>
   <data name="fg_fileTooBig" xml:space="preserve">
-    <value>Файл слишком большой, и его дальнейшая обработка приведёт к ошибке.\nПожалуйста, выберите другой файл.</value>
+    <value>File is too big and further glitching will cause error.\nPlease take another file.</value>
   </data>
   <data name="fg_fileTooSmall" xml:space="preserve">
-    <value>Файл слишком маленький, чтобы его было возможно обработать.</value>
+    <value>File is too small to work with it.</value>
   </data>
   <data name="fg_glitchingRatio" xml:space="preserve">
-    <value>Пропорции ломания (1 - полностью, 100 - 1/100 etc):</value>
+    <value>Glitching ratio (1 - fully, 100 - 1/100 etc)</value>
   </data>
   <data name="fg_limit" xml:space="preserve">
-    <value>В прогрмме установлено ограничение - глитч файлов только до 500 мегабайт, иначе ваш комп взорвётся. Проверено.</value>
+    <value>This programm has limit - 500 MB for one glitching file, because bigger size can make your PC explode. Tested.</value>
   </data>
   <data name="fg_mismatchOfSizes" xml:space="preserve">
-    <value>Несоответствие пропорций и размера файла!</value>
+    <value>Mismatch of ratio and file size!</value>
   </data>
   <data name="fg_numberOfGlitchingBlocks" xml:space="preserve">
-    <value>Количество ломаемых блоков:</value>
+    <value>Number of glitching blocks:</value>
   </data>
   <data name="fg_pathError" xml:space="preserve">
-    <value>Что-то не так с путями к файлам!</value>
+    <value>Something wrong with file path!</value>
   </data>
   <data name="fg_startByteWarning" xml:space="preserve">
-    <value>Начальный байт больше/равен размеру файла. Укажите начальную позицию меньше.</value>
+    <value>Start byte is bigger/equal to file size. Please choose less start byte</value>
   </data>
   <data name="fg_takeLessGlitchingBlocks" xml:space="preserve">
-    <value>Выберите меньшее количество ломаемых блоков! Максимальное в данном случае </value>
+    <value>Choose less glitching blocks! Max number now is </value>
   </data>
   <data name="fg_takeLessGlitchingBytes" xml:space="preserve">
-    <value>Выберите меньшее количество ломаемых байт в блоке!</value>
+    <value>Choose less glitching bytes in block!</value>
   </data>
   <data name="fg_waiting" xml:space="preserve">
-    <value>Ждите! Мы в процессе...</value>
-  </data>
-  <data name="generate" xml:space="preserve">
-    <value>Генерация</value>
-  </data>
-  <data name="glitch" xml:space="preserve">
-    <value>Глитч</value>
+    <value>Wait! Work in progress...</value>
   </data>
   <data name="glitchExtent" xml:space="preserve">
-    <value>Степень глитча:</value>
+    <value>Glitch extent:</value>
   </data>
   <data name="glitchExtentWarning" xml:space="preserve">
-    <value>Степень глитча не может быть больше длины текста, либо же поле для ввода пустое!</value>
+    <value>Glitch extent must be smaller that text length, or input text is empty!</value>
   </data>
   <data name="inTray" xml:space="preserve">
-    <value>Теперь я в трее!</value>
+    <value>Now I'm in tray!</value>
   </data>
   <data name="invisible" xml:space="preserve">
-    <value>Пустота скопирована в буфер обмена!</value>
+    <value>Invisible symbol copied to clipboard!</value>
   </data>
   <data name="itsNotBase" xml:space="preserve">
-    <value>Это не Base64!</value>
+    <value>That's not Base64!</value>
   </data>
   <data name="itsNotBase2" xml:space="preserve">
-    <value>Не удалось декодировать текст, потому что это не Base64.</value>
-  </data>
-  <data name="keysGenerated" xml:space="preserve">
-    <value>Ключей сгенерировано: </value>
+    <value>Unable to decode it, because this is note Base64.</value>
   </data>
   <data name="lenface" xml:space="preserve">
-    <value>Lenny Face скопирован в буфер обмена!</value>
-  </data>
-  <data name="letters" xml:space="preserve">
-    <value>Буквы</value>
-  </data>
-  <data name="lightGlitch" xml:space="preserve">
-    <value>Light-глитч</value>
+    <value>Lenny Face copied to the clipboard!</value>
   </data>
   <data name="mark" xml:space="preserve">
-    <value>Значок ✔ скопирован в буфер обмена!</value>
+    <value>✔ copied to the clipboard!</value>
   </data>
   <data name="of" xml:space="preserve">
-    <value>из</value>
-  </data>
-  <data name="replace" xml:space="preserve">
-    <value>Замена</value>
-  </data>
-  <data name="reverse" xml:space="preserve">
-    <value>Реверс</value>
+    <value>of</value>
   </data>
   <data name="shrug" xml:space="preserve">
-    <value>¯\_(ツ)_/¯ скопирован в буфер обмена!</value>
+    <value>¯\_(ツ)_/¯ copied to the clipboard!</value>
   </data>
   <data name="size" xml:space="preserve">
-    <value>Размер:</value>
+    <value>Size: </value>
   </data>
   <data name="trademark" xml:space="preserve">
-    <value>Значок ™ скопирован в буфер обмена!</value>
+    <value>™ copied to the clipboard!</value>
   </data>
   <data name="warning" xml:space="preserve">
-    <value>Внимание!</value>
+    <value>Warning!</value>
   </data>
   <data name="wordSize" xml:space="preserve">
-    <value>Размер слова:</value>
+    <value>Word size:</value>
+  </data>
+  <data name="diggits_letters" xml:space="preserve">
+    <value>Digits+Letters</value>
+  </data>
+  <data name="digits" xml:space="preserve">
+    <value>Numbers</value>
+  </data>
+  <data name="generate" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="glitch" xml:space="preserve">
+    <value>Glitch</value>
+  </data>
+  <data name="keysGenerated" xml:space="preserve">
+    <value>Keys generated: </value>
+  </data>
+  <data name="letters" xml:space="preserve">
+    <value>Letters</value>
+  </data>
+  <data name="lightGlitch" xml:space="preserve">
+    <value>Light-glitch</value>
+  </data>
+  <data name="replace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="reverse" xml:space="preserve">
+    <value>Reverse</value>
   </data>
 </root>

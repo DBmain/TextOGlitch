@@ -4,6 +4,8 @@ using System.Threading;
 using System.Windows.Forms;
 using TextGlitch;
 using System.Linq;
+using System.Globalization;
+using System.Diagnostics;
 
 namespace TextOGlitch_3
 {
@@ -38,6 +40,14 @@ namespace TextOGlitch_3
                 System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.GetCultureInfo("en-US");
             }
             InitializeComponent();
+        }
+
+        public static void threadLocalization()
+        {
+            CultureInfo ci;
+            if (!File.Exists("ru/rus")) ci = new CultureInfo("en-US");
+            else ci = new CultureInfo("ru");
+            Thread.CurrentThread.CurrentUICulture = ci;
         }
 
         private void nameChanging(object rename)
@@ -77,6 +87,7 @@ namespace TextOGlitch_3
 
         private void working()
         {
+            TextOGlitchForm1.threadLocalization();
             CheckForIllegalCrossThreadCalls = false;
             switch (mode)
             {
@@ -460,7 +471,7 @@ namespace TextOGlitch_3
                 {
                     if (name != null) if (name.IsAlive) name.Abort();
                     if (work != null) if (work.IsAlive) work.Abort();
-                    Application.Exit();
+                    Process.GetCurrentProcess().Kill();
                 }
                 catch { };
             }
@@ -753,12 +764,13 @@ namespace TextOGlitch_3
                     try
                     {
                         Application.Restart();
+                        Process.GetCurrentProcess().Kill();
                     }
                     catch { };
                 }
                 catch
                 {
-                    MessageBox.Show("Checking localization file ru/rus is busy! Delete it by yourself or free it!");
+                    MessageBox.Show("File \"ru/rus\" is busy or not exist! Delete it by yourself or just restart the programm!");
                 }
             }
             else
@@ -768,6 +780,7 @@ namespace TextOGlitch_3
                 try
                 {
                     Application.Restart();
+                    Process.GetCurrentProcess().Kill();
                 }
                 catch { };
             }
