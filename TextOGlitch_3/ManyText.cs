@@ -13,7 +13,7 @@ using TextGlitch;
 
 namespace TextOGlitch_3
 {
-    public partial class WorkWithBigText : Form
+    public partial class ManyText : Form
     {
         static string output;
         static string workString;
@@ -174,7 +174,7 @@ namespace TextOGlitch_3
             paste.Enabled = true;
         }
 
-        public WorkWithBigText()
+        public ManyText()
         {
             InitializeComponent();
         }

@@ -87,11 +87,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Translate.resx</DependentUpon>
     </Compile>
-    <Compile Include="WorkWithBigText.cs">
+    <Compile Include="ManyText.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WorkWithBigText.Designer.cs">
-      <DependentUpon>WorkWithBigText.cs</DependentUpon>
+    <Compile Include="ManyText.Designer.cs">
+      <DependentUpon>ManyText.cs</DependentUpon>
     </Compile>
     <Compile Include="keygen.cs">
       <SubType>Form</SubType>
@@ -144,8 +144,8 @@
     <EmbeddedResource Include="trayForm.ru.resx">
       <DependentUpon>trayForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WorkWithBigText.resx">
-      <DependentUpon>WorkWithBigText.cs</DependentUpon>
+    <EmbeddedResource Include="ManyText.resx">
+      <DependentUpon>ManyText.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="keygen.resx">
       <DependentUpon>keygen.cs</DependentUpon>
@@ -161,8 +161,8 @@
     <EmbeddedResource Include="trayForm.resx">
       <DependentUpon>trayForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WorkWithBigText.ru.resx">
-      <DependentUpon>WorkWithBigText.cs</DependentUpon>
+    <EmbeddedResource Include="ManyText.ru.resx">
+      <DependentUpon>ManyText.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="bin\Debug\aaaa.xm" />
     <None Include="bin\Debug\aaab.xm" />

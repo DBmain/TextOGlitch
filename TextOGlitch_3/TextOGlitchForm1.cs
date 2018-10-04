@@ -643,7 +643,7 @@ namespace TextOGlitch_3
             {
                 if (f.Name == "WorkWithBigText") return;
             }
-            WorkWithBigText o = new WorkWithBigText();
+            ManyText o = new ManyText();
             o.Show();
         }
 
@@ -663,7 +663,7 @@ namespace TextOGlitch_3
             {
                 if (f.Name == "WorkWithBigText") return;
             }
-            WorkWithBigText a = new WorkWithBigText();
+            ManyText a = new ManyText();
             a.Show();
         }
 
