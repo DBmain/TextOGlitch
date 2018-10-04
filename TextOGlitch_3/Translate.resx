@@ -118,7 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="about" xml:space="preserve">
-    <value>Text'O'Glitch Experimental.</value>
+    <value>Text'O'Glitch 4.0 Beta.
+Written on C#. Author &amp; code: t.me/russkiypoopforever.
+Graphics: t.me/naturalnonsense.
+https://github.com/DBmain/TextOGlitch</value>
   </data>
   <data name="clipboardEmpty" xml:space="preserve">
     <value>Clipboard is empty!</value>

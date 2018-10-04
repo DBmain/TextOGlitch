@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="about" xml:space="preserve">
-    <value>Text'O'Glitch Experimental.
+    <value>Text'O'Glitch 4.0 Beta.
 Написано на C#. Автор и код: t.me/russkiypoopforever.
 Графика: t.me/naturalnonsense.
 https://github.com/DBmain/TextOGlitch</value>

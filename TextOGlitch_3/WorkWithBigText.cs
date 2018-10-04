@@ -206,7 +206,7 @@ namespace TextOGlitch_3
             {
                 if (Convert.ToInt32(numericUpDown1.Value) > richTextBox1.Text.Length)
                 {
-                    MessageBox.Show(Translate.glitchExtentWarning, Translate.warning);
+                    MessageBox.Show(Translate.glitchExtentWarning, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     startMass.Enabled = true;
                     paste.Enabled = true;
                     return;
@@ -235,7 +235,7 @@ namespace TextOGlitch_3
             {
                 if (Convert.ToInt32(numericUpDown1.Value) > workString.Length)
                 {
-                    MessageBox.Show(Translate.glitchExtentWarning, Translate.warning);
+                    MessageBox.Show(Translate.glitchExtentWarning, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     startMass.Enabled = true;
                     paste.Enabled = true;
                     return;

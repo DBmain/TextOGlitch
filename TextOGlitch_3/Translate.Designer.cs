@@ -61,7 +61,10 @@ namespace TextOGlitch_3 {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Text&apos;O&apos;Glitch Experimental..
+        ///   Ищет локализованную строку, похожую на Text&apos;O&apos;Glitch 4.0 Beta.
+        ///Written on C#. Author &amp; code: t.me/russkiypoopforever.
+        ///Graphics: t.me/naturalnonsense.
+        ///https://github.com/DBmain/TextOGlitch.
         /// </summary>
         internal static string about {
             get {

@@ -145,20 +145,11 @@
   <data name="menu.Text" xml:space="preserve">
     <value>Меню</value>
   </data>
-  <data name="gli4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
   <data name="gli4.Text" xml:space="preserve">
     <value>Глитч</value>
   </data>
-  <data name="zamena.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
   <data name="zamena.Text" xml:space="preserve">
     <value>Замена</value>
-  </data>
-  <data name="revers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
   </data>
   <data name="revers.Text" xml:space="preserve">
     <value>Реверс</value>
@@ -172,38 +163,26 @@
   <data name="cifri.Text" xml:space="preserve">
     <value>Только цифры</value>
   </data>
+  <data name="generationMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
   <data name="generationMenu.Text" xml:space="preserve">
     <value>Генерация</value>
   </data>
-  <data name="tobase.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
   <data name="tobase.Text" xml:space="preserve">
     <value>Текст &gt; Base64</value>
-  </data>
-  <data name="totext.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
   </data>
   <data name="totext.Text" xml:space="preserve">
     <value>Base64 &gt; Текст</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 6</value>
-  </data>
-  <data name="manyText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>162, 6</value>
   </data>
   <data name="manyText.Text" xml:space="preserve">
     <value>Многотекстовик</value>
   </data>
-  <data name="fileGlitch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
   <data name="fileGlitch.Text" xml:space="preserve">
     <value>Файлоломатель</value>
-  </data>
-  <data name="RandomizerButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
   </data>
   <data name="RandomizerButton.Text" xml:space="preserve">
     <value>Рандомайзер</value>
@@ -214,14 +193,8 @@
   <data name="keygenform.Text" xml:space="preserve">
     <value>Кейген</value>
   </data>
-  <data name="aboutMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 22</value>
-  </data>
   <data name="aboutMessage.Text" xml:space="preserve">
     <value>Об авторах</value>
-  </data>
-  <data name="english.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 22</value>
   </data>
   <data name="english.Text" xml:space="preserve">
     <value>English</value>

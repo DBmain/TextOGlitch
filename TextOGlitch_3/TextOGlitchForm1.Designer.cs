@@ -65,6 +65,7 @@
             this.cifri = new System.Windows.Forms.ToolStripMenuItem();
             this.tobase = new System.Windows.Forms.ToolStripMenuItem();
             this.totext = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.manyText = new System.Windows.Forms.ToolStripMenuItem();
             this.fileGlitch = new System.Windows.Forms.ToolStripMenuItem();
             this.RandomizerButton = new System.Windows.Forms.ToolStripMenuItem();
@@ -101,7 +102,6 @@
             this.exitTray = new System.Windows.Forms.ToolStripMenuItem();
             this.lightGlitch = new System.Windows.Forms.CheckBox();
             this.ramClean = new System.Windows.Forms.Timer(this.components);
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             ((System.ComponentModel.ISupportInitialize)(this.glitchExtent)).BeginInit();
             this.menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -353,6 +353,11 @@
             this.totext.Name = "totext";
             this.totext.Click += new System.EventHandler(this.toTextMenu_Click);
             // 
+            // toolStripSeparator2
+            // 
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            // 
             // manyText
             // 
             resources.ApplyResources(this.manyText, "manyText");
@@ -592,11 +597,6 @@
             // 
             this.ramClean.Interval = 60000;
             this.ramClean.Tick += new System.EventHandler(this.ramClean_Tick);
-            // 
-            // toolStripSeparator2
-            // 
-            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
             // 
             // TextOGlitchForm1
             // 
