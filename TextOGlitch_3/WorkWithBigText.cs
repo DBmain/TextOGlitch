@@ -29,30 +29,25 @@ namespace TextOGlitch_3
         };
         private void reversing()
         {
-
-            TextOGlitchForm1.threadLocalization();
             CheckForIllegalCrossThreadCalls = false;
-            ////for (int i = 0; i < work.Length; i++)
-            ////{
-            //if (work[i] != '\r')
-            //{
-            ////    reverseWork[reverseWork.Length - i - 1] = work[i];
-            ////    label1.Text = "Реверснуто символов: " + (i + 1) + "/" + work.Length;
-            //}
-            //else
-            //{
-            //    reverseWork[reverseWork.Length - i - 1] = work[i + 1];
-            //    reverseWork[reverseWork.Length - i - 2] = work[i];
-            //    i++;
-            //}
-            ////label1.Update();
-            ////}
-            output = new string(work);
-            output = output.Trim('\r');
-            output = Reverse.Text(output);
-            ////output = new string(reverseWork);
+            for (int i = 0; i < work.Length; i++)
+            {
+                //if (work[i] != '\r')
+                //{
+                    reverseWork[reverseWork.Length - i - 1] = work[i];
+                    label1.Text = "Реверснуто символов: " + (i + 1) + "/" + work.Length;
+                //}
+                //else
+                //{
+                //    reverseWork[reverseWork.Length - i - 1] = work[i + 1];
+                //    reverseWork[reverseWork.Length - i - 2] = work[i];
+                //    i++;
+                //}
+                label1.Update();
+            }
+            output = new string(reverseWork);
             richTextBox2.Text = output;
-            label1.Text = Translate.done;
+            label1.Text = "Готово!";
             richTextBox1.Enabled = true;
             glitchMass.Enabled = true;
             replaceMass.Enabled = true;
@@ -62,7 +57,6 @@ namespace TextOGlitch_3
         }
         private void glitchingOneString()
         {
-            TextOGlitchForm1.threadLocalization();
             CheckForIllegalCrossThreadCalls = false;
             richTextBox2.Text = "";
             workString = richTextBox1.Text;
@@ -75,7 +69,7 @@ namespace TextOGlitch_3
                     //tempOutput = tempOutput.Replace("\r", null);
                     //output = output + tempOutput + "\n";
                     richTextBox2.Update();
-                    label1.Text = (i + 1) + "/" + glitchOneStringCount.Value + Translate.doneWithDots;
+                    label1.Text = (i + 1) + "/" + glitchOneStringCount.Value + " готово...";
                     label1.Update();
                 }
             }
@@ -89,11 +83,11 @@ namespace TextOGlitch_3
                     //tempOutput = tempOutput.Replace("\r", null);
                     //output = output + tempOutput + "\n";
                     richTextBox2.Update();
-                    label1.Text = (i + 1) + "/" + glitchOneStringCount.Value + Translate.doneWithDots;
+                    label1.Text = (i + 1) + "/" + glitchOneStringCount.Value + " готово...";
                     label1.Update();
                 }
             }
-            label1.Text = Translate.done;
+            label1.Text = "Готово!";
             richTextBox1.Enabled = true;
             glitchMass.Enabled = true;
             reverseMass.Enabled = true;
@@ -108,9 +102,8 @@ namespace TextOGlitch_3
         }
         private void glitching()
         {
-            TextOGlitchForm1.threadLocalization();
             CheckForIllegalCrossThreadCalls = false;
-            label1.Text = Translate.fg_waiting;
+            label1.Text = "Пожалуйста, подождите, идёт процесс глитча...";
             label1.Update();
             output = Glitch.Text(workString, Convert.ToInt32(numericUpDown1.Value), false);
             if (!lightMass.Checked)
@@ -145,7 +138,7 @@ namespace TextOGlitch_3
                 //output = new string(outputLight);
                 richTextBox2.Text = Glitch.Text(richTextBox1.Text, Convert.ToInt32(numericUpDown1.Value), true);
             }
-            label1.Text = Translate.done;
+            label1.Text = "Готово!";
             richTextBox1.Enabled = true;
             glitchOneStringCheckBox.Enabled = true;
             glitchMass.Enabled = true;
@@ -159,12 +152,11 @@ namespace TextOGlitch_3
 
         private void replacing()
         {
-            TextOGlitchForm1.threadLocalization();
             CheckForIllegalCrossThreadCalls = false;
-            label1.Text = Translate.fg_waiting;
+            label1.Text = "Пожалуйста, подождите, идёт процесс замены...";
             label1.Update();
             output = Replace.Text(workString);
-            label1.Text = Translate.done;
+            label1.Text = "Готово!";
             richTextBox2.Text = output;
             richTextBox1.Enabled = true;
             glitchMass.Enabled = true;
@@ -206,7 +198,7 @@ namespace TextOGlitch_3
             {
                 if (Convert.ToInt32(numericUpDown1.Value) > richTextBox1.Text.Length)
                 {
-                    MessageBox.Show(Translate.glitchExtentWarning, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Степень глитча не может быть больше длины текста, либо же поле для ввода пустое!", "Предупреждение");
                     startMass.Enabled = true;
                     paste.Enabled = true;
                     return;
@@ -235,7 +227,7 @@ namespace TextOGlitch_3
             {
                 if (Convert.ToInt32(numericUpDown1.Value) > workString.Length)
                 {
-                    MessageBox.Show(Translate.glitchExtentWarning, Translate.error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Степень глитча не может быть больше длины текста, либо же поле для ввода пустое!", "Предупреждение");
                     startMass.Enabled = true;
                     paste.Enabled = true;
                     return;

@@ -51,38 +51,54 @@
             // 
             // massKeyOut
             // 
-            resources.ApplyResources(this.massKeyOut, "massKeyOut");
+            this.massKeyOut.Location = new System.Drawing.Point(12, 29);
             this.massKeyOut.Name = "massKeyOut";
             this.massKeyOut.ReadOnly = true;
+            this.massKeyOut.Size = new System.Drawing.Size(722, 365);
+            this.massKeyOut.TabIndex = 0;
+            this.massKeyOut.Text = "";
             // 
             // massgenlabel
             // 
-            resources.ApplyResources(this.massgenlabel, "massgenlabel");
+            this.massgenlabel.AutoSize = true;
+            this.massgenlabel.Location = new System.Drawing.Point(620, 401);
             this.massgenlabel.Name = "massgenlabel";
+            this.massgenlabel.Size = new System.Drawing.Size(114, 13);
+            this.massgenlabel.TabIndex = 1;
+            this.massgenlabel.Text = "Массовая генерация";
             // 
             // keyOneOut
             // 
-            resources.ApplyResources(this.keyOneOut, "keyOneOut");
+            this.keyOneOut.Location = new System.Drawing.Point(12, 401);
             this.keyOneOut.Name = "keyOneOut";
             this.keyOneOut.ReadOnly = true;
+            this.keyOneOut.Size = new System.Drawing.Size(210, 20);
+            this.keyOneOut.TabIndex = 2;
+            this.keyOneOut.Text = "Одиночный ключ";
             // 
             // generateOneKey
             // 
-            resources.ApplyResources(this.generateOneKey, "generateOneKey");
+            this.generateOneKey.Location = new System.Drawing.Point(12, 427);
             this.generateOneKey.Name = "generateOneKey";
+            this.generateOneKey.Size = new System.Drawing.Size(95, 23);
+            this.generateOneKey.TabIndex = 3;
+            this.generateOneKey.Text = "Сгенерировать";
             this.generateOneKey.UseVisualStyleBackColor = true;
             this.generateOneKey.Click += new System.EventHandler(this.generateOneKey_Click);
             // 
             // copyOne
             // 
-            resources.ApplyResources(this.copyOne, "copyOne");
+            this.copyOne.Location = new System.Drawing.Point(140, 427);
             this.copyOne.Name = "copyOne";
+            this.copyOne.Size = new System.Drawing.Size(82, 23);
+            this.copyOne.TabIndex = 4;
+            this.copyOne.Text = "Скопировать";
             this.copyOne.UseVisualStyleBackColor = true;
             this.copyOne.Click += new System.EventHandler(this.copyOne_Click);
             // 
             // symbols
             // 
-            resources.ApplyResources(this.symbols, "symbols");
+            this.symbols.Location = new System.Drawing.Point(322, 408);
             this.symbols.Maximum = new decimal(new int[] {
             30,
             0,
@@ -94,6 +110,8 @@
             0,
             0});
             this.symbols.Name = "symbols";
+            this.symbols.Size = new System.Drawing.Size(32, 20);
+            this.symbols.TabIndex = 5;
             this.symbols.Value = new decimal(new int[] {
             4,
             0,
@@ -102,7 +120,7 @@
             // 
             // blocks
             // 
-            resources.ApplyResources(this.blocks, "blocks");
+            this.blocks.Location = new System.Drawing.Point(405, 408);
             this.blocks.Maximum = new decimal(new int[] {
             30,
             0,
@@ -114,6 +132,8 @@
             0,
             0});
             this.blocks.Name = "blocks";
+            this.blocks.Size = new System.Drawing.Size(32, 20);
+            this.blocks.TabIndex = 5;
             this.blocks.Value = new decimal(new int[] {
             4,
             0,
@@ -122,23 +142,33 @@
             // 
             // label1
             // 
-            resources.ApplyResources(this.label1, "label1");
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(311, 431);
             this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Символов";
             // 
             // label2
             // 
-            resources.ApplyResources(this.label2, "label2");
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(400, 431);
             this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Блоков";
             // 
             // numericUpDown1
             // 
-            resources.ApplyResources(this.numericUpDown1, "numericUpDown1");
+            this.numericUpDown1.Location = new System.Drawing.Point(529, 408);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             50000,
             0,
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(64, 20);
+            this.numericUpDown1.TabIndex = 8;
             this.numericUpDown1.Value = new decimal(new int[] {
             1,
             0,
@@ -147,36 +177,52 @@
             // 
             // label3
             // 
-            resources.ApplyResources(this.label3, "label3");
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(529, 431);
             this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Количество";
             // 
             // startMassGen
             // 
-            resources.ApplyResources(this.startMassGen, "startMassGen");
+            this.startMassGen.Location = new System.Drawing.Point(623, 426);
             this.startMassGen.Name = "startMassGen";
+            this.startMassGen.Size = new System.Drawing.Size(111, 23);
+            this.startMassGen.TabIndex = 10;
+            this.startMassGen.Text = "Начать!";
             this.startMassGen.UseVisualStyleBackColor = true;
             this.startMassGen.Click += new System.EventHandler(this.startMassGen_Click);
             // 
             // generationProcess
             // 
-            resources.ApplyResources(this.generationProcess, "generationProcess");
+            this.generationProcess.AutoSize = true;
+            this.generationProcess.Location = new System.Drawing.Point(12, 10);
             this.generationProcess.Name = "generationProcess";
+            this.generationProcess.Size = new System.Drawing.Size(0, 13);
+            this.generationProcess.TabIndex = 11;
             // 
             // saving
             // 
-            resources.ApplyResources(this.saving, "saving");
+            this.saving.Enabled = false;
+            this.saving.Location = new System.Drawing.Point(659, 5);
             this.saving.Name = "saving";
+            this.saving.Size = new System.Drawing.Size(75, 23);
+            this.saving.TabIndex = 12;
+            this.saving.Text = "Сохранить";
             this.saving.UseVisualStyleBackColor = true;
             this.saving.Click += new System.EventHandler(this.saving_Click);
             // 
             // saveFileDialog1
             // 
-            resources.ApplyResources(this.saveFileDialog1, "saveFileDialog1");
+            this.saveFileDialog1.Filter = "Текстовый файл|*.txt|Все файлы|*.*";
+            this.saveFileDialog1.Title = "Сохранить ключи...";
             // 
             // keygen
             // 
-            resources.ApplyResources(this, "$this");
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(746, 455);
             this.Controls.Add(this.saving);
             this.Controls.Add(this.generationProcess);
             this.Controls.Add(this.startMassGen);
@@ -192,8 +238,10 @@
             this.Controls.Add(this.massgenlabel);
             this.Controls.Add(this.massKeyOut);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "keygen";
+            this.Text = "Генерация ключей";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.keygen_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.keygen_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.symbols)).EndInit();

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Randomizer));
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.button1 = new System.Windows.Forms.Button();
@@ -39,7 +38,7 @@
             // 
             // numericUpDown1
             // 
-            resources.ApplyResources(this.numericUpDown1, "numericUpDown1");
+            this.numericUpDown1.Location = new System.Drawing.Point(12, 4);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -51,10 +50,12 @@
             0,
             -2147483648});
             this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(57, 20);
+            this.numericUpDown1.TabIndex = 0;
             // 
             // numericUpDown2
             // 
-            resources.ApplyResources(this.numericUpDown2, "numericUpDown2");
+            this.numericUpDown2.Location = new System.Drawing.Point(76, 4);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -66,6 +67,8 @@
             0,
             -2147483648});
             this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(57, 20);
+            this.numericUpDown2.TabIndex = 0;
             this.numericUpDown2.Value = new decimal(new int[] {
             10,
             0,
@@ -74,27 +77,36 @@
             // 
             // button1
             // 
-            resources.ApplyResources(this.button1, "button1");
+            this.button1.Location = new System.Drawing.Point(34, 30);
             this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "GO";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
-            resources.ApplyResources(this.label1, "label1");
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label1.Location = new System.Drawing.Point(12, 56);
             this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(121, 24);
+            this.label1.TabIndex = 2;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Randomizer
             // 
-            resources.ApplyResources(this, "$this");
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(145, 86);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.numericUpDown1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Randomizer";
+            this.Text = "Рандомайзер";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Randomizer_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();

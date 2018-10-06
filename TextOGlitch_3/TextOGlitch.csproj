@@ -82,11 +82,6 @@
     <Compile Include="Randomizer.Designer.cs">
       <DependentUpon>Randomizer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Translate.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Translate.resx</DependentUpon>
-    </Compile>
     <Compile Include="WorkWithBigText.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,28 +116,8 @@
     <EmbeddedResource Include="FileGlitcher.resx">
       <DependentUpon>FileGlitcher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FileGlitcher.ru.resx">
-      <DependentUpon>FileGlitcher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="keygen.ru.resx">
-      <DependentUpon>keygen.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Randomizer.resx">
       <DependentUpon>Randomizer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Randomizer.ru.resx">
-      <DependentUpon>Randomizer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TextOGlitchForm1.ru.resx">
-      <DependentUpon>TextOGlitchForm1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Translate.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Translate.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Translate.ru.resx" />
-    <EmbeddedResource Include="trayForm.ru.resx">
-      <DependentUpon>trayForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WorkWithBigText.resx">
       <DependentUpon>WorkWithBigText.cs</DependentUpon>
@@ -160,9 +135,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="trayForm.resx">
       <DependentUpon>trayForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="WorkWithBigText.ru.resx">
-      <DependentUpon>WorkWithBigText.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="bin\Debug\aaaa.xm" />
     <None Include="bin\Debug\aaab.xm" />
