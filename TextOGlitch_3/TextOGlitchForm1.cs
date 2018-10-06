@@ -3,9 +3,9 @@ using System.IO;
 using System.Threading;
 using System.Windows.Forms;
 using TextGlitch;
-using System.Linq;
 using System.Globalization;
 using System.Diagnostics;
+using TextOGlitch;
 
 namespace TextOGlitch_3
 {

@@ -7,8 +7,8 @@
     <ProjectGuid>{2485A24F-1FE5-4F6B-BF04-2EF387710504}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TextOGlitch_3</RootNamespace>
-    <AssemblyName>TextOGlitch_3</AssemblyName>
+    <RootNamespace>TextOGlitch</RootNamespace>
+    <AssemblyName>TextOGlitch</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

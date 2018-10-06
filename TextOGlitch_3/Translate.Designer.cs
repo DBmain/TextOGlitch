@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TextOGlitch_3 {
+namespace TextOGlitch {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace TextOGlitch_3 {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TextOGlitch_3.Translate", typeof(Translate).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TextOGlitch.Translate", typeof(Translate).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace TextOGlitch_3 {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Text&apos;O&apos;Glitch 4.0 Beta.
+        ///   Ищет локализованную строку, похожую на Text&apos;O&apos;Glitch 4.0.
         ///Written on C#. Author &amp; code: t.me/russkiypoopforever.
         ///Graphics: t.me/naturalnonsense.
         ///https://github.com/DBmain/TextOGlitch.
