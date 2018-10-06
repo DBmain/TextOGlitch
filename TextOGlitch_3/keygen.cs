@@ -35,7 +35,7 @@ namespace TextOGlitch_3
                     massKeyOut.Text += Keygen.Create(Convert.ToInt32(symbols.Value), Convert.ToInt32(blocks.Value));
                 }
                 massKeyOut.Update();
-                generationProcess.Text = Translate.keysGenerated + i + "/" + Convert.ToInt32(numericUpDown1.Value) + ".";
+                generationProcess.Text = "Ключей сгенерировано: " + i + "/" + Convert.ToInt32(numericUpDown1.Value) + ".";
                 generationProcess.Update();
             }
             symbols.Enabled = true;
@@ -43,7 +43,7 @@ namespace TextOGlitch_3
             numericUpDown1.Enabled = true;
             saving.Enabled = true;
             startMassGen.Enabled = true;
-            generationProcess.Text = Translate.done;
+            generationProcess.Text = "Готово!";
         }
         private void oneKey(object sender)
         {

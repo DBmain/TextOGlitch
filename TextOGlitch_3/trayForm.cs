@@ -53,7 +53,7 @@ namespace TextOGlitch_3
                     textBox1.Size = new Size(100, 20);
                     name = new Thread(nameChanging);
                     name.IsBackground = true;
-                    name.Start(Translate.glitch);
+                    name.Start("Glitch");
                     break;
                 case 1:
                     this.Size = new Size(194, 66);
@@ -69,7 +69,7 @@ namespace TextOGlitch_3
                     textBox1.Size = new Size(100, 20);
                     name = new Thread(nameChanging);
                     name.IsBackground = true;
-                    name.Start(Translate.lightGlitch);
+                    name.Start("Light-glitch");
                     break;
                 case 2:
                     this.Size = new Size(157, 66);
@@ -79,7 +79,7 @@ namespace TextOGlitch_3
                     numericUpDown1.Visible = false;
                     button1.Location = new Point(107, 2);
                     textBox1.Size = new Size(100, 20);
-                    this.Text = Translate.replace;
+                    this.Text = "Replace";
                     break;
                 case 3:
                     this.Size = new Size(157, 66);
@@ -89,7 +89,7 @@ namespace TextOGlitch_3
                     numericUpDown1.Visible = false;
                     button1.Location = new Point(107, 2);
                     textBox1.Size = new Size(100, 20);
-                    this.Text = Translate.reverse;
+                    this.Text = "Reverse";
                     break;
                 case 4:
                     this.Size = new Size(246, 85);
@@ -103,7 +103,7 @@ namespace TextOGlitch_3
                     numericUpDown1.Size = new Size(48, 20);
                     numericUpDown1.Minimum = 1;
                     numericUpDown1.Maximum = 300;
-                    this.Text = Translate.generate;
+                    this.Text = "Generate";
                     break;
             }
         }
@@ -116,7 +116,6 @@ namespace TextOGlitch_3
         }
         private void working()
         {
-            TextOGlitchForm1.threadLocalization();
             CheckForIllegalCrossThreadCalls = false;
                 switch (TextOGlitchForm1.modeTray)
                 {

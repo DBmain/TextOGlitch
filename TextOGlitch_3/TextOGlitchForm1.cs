@@ -4,8 +4,6 @@ using System.Threading;
 using System.Windows.Forms;
 using TextGlitch;
 using System.Linq;
-using System.Globalization;
-using System.Diagnostics;
 
 namespace TextOGlitch_3
 {
@@ -34,20 +32,7 @@ namespace TextOGlitch_3
         public TextOGlitchForm1(string[] args)
         {
             this.args = args;
-            if (!File.Exists("ru/rus"))
-            {
-                System.Threading.Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo("en-US");
-                System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.GetCultureInfo("en-US");
-            }
             InitializeComponent();
-        }
-
-        public static void threadLocalization()
-        {
-            CultureInfo ci;
-            if (!File.Exists("ru/rus")) ci = new CultureInfo("en-US");
-            else ci = new CultureInfo("ru");
-            Thread.CurrentThread.CurrentUICulture = ci;
         }
 
         private void nameChanging(object rename)
@@ -87,7 +72,6 @@ namespace TextOGlitch_3
 
         private void working()
         {
-            TextOGlitchForm1.threadLocalization();
             CheckForIllegalCrossThreadCalls = false;
             switch (mode)
             {
@@ -130,7 +114,7 @@ namespace TextOGlitch_3
                     string outText = textOut.Text = EasyBase64.Decode(textIn.Text);
                     if (outText == "It is not Base64.")
                     {
-                        textOut.Text = Translate.itsNotBase;
+                        textOut.Text = "Это вряд ли Base64.";
                     }
                     else textOut.Text = outText;
                     break;
@@ -205,7 +189,7 @@ namespace TextOGlitch_3
             {
                 gli4.Checked = true;
             }
-            label2.Text = Translate.glitchExtent;
+            label2.Text = "Степень глитча:";
             glitchExtent.Maximum = 5;
         }
 
@@ -231,7 +215,7 @@ namespace TextOGlitch_3
             {
                 zamena.Checked = true;
             }
-            label2.Text = Translate.glitchExtent;
+            label2.Text = "Степень глитча:";
             glitchExtent.Maximum = 5;
         }
 
@@ -257,7 +241,7 @@ namespace TextOGlitch_3
             {
                 revers.Checked = true;
             }
-            label2.Text = Translate.glitchExtent;
+            label2.Text = "Степень глитча:";
             glitchExtent.Maximum = 5;
         }
 
@@ -283,7 +267,7 @@ namespace TextOGlitch_3
             {
                 bukvi_i_cifri.Checked = true;
             }
-            label2.Text = Translate.size;
+            label2.Text = "Размер набора:";
             glitchExtent.Maximum = 300;
         }
 
@@ -309,7 +293,7 @@ namespace TextOGlitch_3
             {
                 bukvi.Checked = true;
             }
-            label2.Text = Translate.size;
+            label2.Text = "Размер набора:";
             glitchExtent.Maximum = 300;
         }
 
@@ -335,7 +319,7 @@ namespace TextOGlitch_3
             {
                 cifri.Checked = true;
             }
-            label2.Text = Translate.size;
+            label2.Text = "Размер набора:";
             glitchExtent.Maximum = 300;
         }
 
@@ -361,7 +345,7 @@ namespace TextOGlitch_3
             {
                 tobase.Checked = true;
             }
-            label2.Text = Translate.glitchExtent;
+            label2.Text = "Степень глитча:";
             glitchExtent.Maximum = 5;
         }
 
@@ -387,7 +371,7 @@ namespace TextOGlitch_3
             {
                 totext.Checked = true;
             }
-            label2.Text = Translate.wordSize;
+            label2.Text = "Размер слова:";
             glitchExtent.Maximum = 300;
         }
 
@@ -431,8 +415,12 @@ namespace TextOGlitch_3
 
         private void about_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show(@"Text'O'Glitch третьей ревизии.
+Написано на C#. Автор и код: http://vk.com/russkiypoopforever.
+Графика: http://vk.com/priadko_i.
+Да кому это надо, пишу я только для себя. Мда.", "About");
         }
+
         private void keygenform_Click(object sender, EventArgs e)
         {
             foreach (Form f in Application.OpenForms)
@@ -471,7 +459,7 @@ namespace TextOGlitch_3
                 {
                     if (name != null) if (name.IsAlive) name.Abort();
                     if (work != null) if (work.IsAlive) work.Abort();
-                    Process.GetCurrentProcess().Kill();
+                    Application.Exit();
                 }
                 catch { };
             }
@@ -489,7 +477,7 @@ namespace TextOGlitch_3
                 //tray.BalloonTipTitle = "Text'O'Glitch";
                 //tray.BalloonTipText = "Теперь я в трее!";
                 //tray.ShowBalloonTip(100);
-                tray.ShowBalloonTip(5000, "Text'O'Glitch", Translate.inTray, tray.BalloonTipIcon);
+                tray.ShowBalloonTip(5000, "Text'O'Glitch", "Теперь я в трее!", tray.BalloonTipIcon);
                 this.Hide();
             }
             else
@@ -585,11 +573,11 @@ namespace TextOGlitch_3
             {
                 clipboard = EasyBase64.Encode(clipboard);
                 Clipboard.SetText(clipboard);
-                tray.ShowBalloonTip(1000, Translate.convertedToBaseTray, Translate.copiedToClipboard, tray.BalloonTipIcon);
+                tray.ShowBalloonTip(1000, "Текст сконвертирован в Base64!", "Скопирован в буфер обмена.", tray.BalloonTipIcon);
             }
             else
             {
-                tray.ShowBalloonTip(1000, "Text'O'Glitch", Translate.clipboardEmpty, tray.BalloonTipIcon);
+                tray.ShowBalloonTip(1000, "Text'O'Glitch", "Буфер пустой!", tray.BalloonTipIcon);
             }
         }
 
@@ -603,16 +591,16 @@ namespace TextOGlitch_3
                 if (clipboard != "It is not Base64.")
                 {
                     Clipboard.SetText(clipboard);
-                    tray.ShowBalloonTip(1000, Translate.decodedFromBaseTray, Translate.decodedFromBaseTray2 + clipboard + "\"." + Translate.copiedToClipboard, tray.BalloonTipIcon);
+                    tray.ShowBalloonTip(1000, "Текст декодирован!", "Получившийся текст: \"" + clipboard + "\". Скопирован в буфер обмена.", tray.BalloonTipIcon);
                 }
                 else
                 {
-                    tray.ShowBalloonTip(1000, Translate.itsNotBase, Translate.itsNotBase2, tray.BalloonTipIcon);
+                    tray.ShowBalloonTip(1000, "Это не Base64!", "Не удалось декодировать текст, потому что это не Base64.", tray.BalloonTipIcon);
                 }
             }
             else
             {
-                tray.ShowBalloonTip(1000, "Text'O'Glitch", Translate.clipboardEmpty, tray.BalloonTipIcon);
+                tray.ShowBalloonTip(1000, "Text'O'Glitch", "Буфер пустой!", tray.BalloonTipIcon);
             }
         }
 
@@ -669,35 +657,35 @@ namespace TextOGlitch_3
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            tray.ShowBalloonTip(1000, "Text'O'Glitch", Translate.trademark, tray.BalloonTipIcon);
+            tray.ShowBalloonTip(1000, "Text'O'Glitch", "Значок ™ скопирован в буфер обмена!", tray.BalloonTipIcon);
             Clipboard.SetText("™");
         }
 
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            tray.ShowBalloonTip(1000, "Text'O'Glitch", Translate.copyright, tray.BalloonTipIcon);
+            tray.ShowBalloonTip(1000, "Text'O'Glitch", "Значок © скопирован в буфер обмена!", tray.BalloonTipIcon);
             Clipboard.SetText("©");
         }
 
         private void toolStripMenuItem4_Click(object sender, EventArgs e)
         {
-            tray.ShowBalloonTip(1000, "Text'O'Glitch", Translate.copyleft, tray.BalloonTipIcon);
+            tray.ShowBalloonTip(1000, "Text'O'Glitch", "Значок ® скопирован в буфер обмена!", tray.BalloonTipIcon);
             Clipboard.SetText("®");
         }
 
         private void toolStripMenuItem5_Click(object sender, EventArgs e)
         {
-            tray.ShowBalloonTip(1000, "Text'O'Glitch", Translate.mark, tray.BalloonTipIcon);
+            tray.ShowBalloonTip(1000, "Text'O'Glitch", "Значок ✔ скопирован в буфер обмена!", tray.BalloonTipIcon);
             Clipboard.SetText("✔");
         }
         private void lennyFace_Click(object sender, EventArgs e)
         {
-            tray.ShowBalloonTip(1000, "Text'O'Glitch", Translate.lenface, tray.BalloonTipIcon);
+            tray.ShowBalloonTip(1000, "Text'O'Glitch", "Lenny Face скопирован в буфер обмена!", tray.BalloonTipIcon);
             Clipboard.SetText("( ͡° ͜ʖ ͡°)");
         }
         private void shrug_Click(object sender, EventArgs e)
         {
-            tray.ShowBalloonTip(1000, "Text'O'Glitch", Translate.shrug, tray.BalloonTipIcon);
+            tray.ShowBalloonTip(1000, "Text'O'Glitch", "¯\\_(ツ)_/¯ скопирован в буфер обмена!", tray.BalloonTipIcon);
             Clipboard.SetText("¯\\_(ツ)_/¯");
         }
 
@@ -744,48 +732,8 @@ namespace TextOGlitch_3
 
         private void voidSymbol_Click(object sender, EventArgs e)
         {
-            tray.ShowBalloonTip(1000, "Text'O'Glitch", Translate.invisible, tray.BalloonTipIcon);
+            tray.ShowBalloonTip(1000, "Text'O'Glitch", "Пустота скопирована в буфер обмена!", tray.BalloonTipIcon);
             Clipboard.SetText("͏");
         }
-
-        private void aboutMessage_click(object sender, EventArgs e)
-        {
-            MessageBox.Show(Translate.about, "About");
-        }
-
-        private void english_Click(object sender, EventArgs e)
-        {
-            if (File.Exists("ru/rus"))
-            {
-                try
-                {
-                    File.Delete("ru/rus");
-                    exitMessage = false;
-                    try
-                    {
-                        Application.Restart();
-                        Process.GetCurrentProcess().Kill();
-                    }
-                    catch { };
-                }
-                catch
-                {
-                    MessageBox.Show("File \"ru/rus\" is busy or not exist! Delete it by yourself or just restart the programm!");
-                }
-            }
-            else
-            {
-                File.Create("ru/rus");
-                exitMessage = false;
-                try
-                {
-                    Application.Restart();
-                    Process.GetCurrentProcess().Kill();
-                }
-                catch { };
-            }
-
-
-        }
     }
-    }
+}
