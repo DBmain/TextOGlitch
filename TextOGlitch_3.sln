@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextOGlitch", "TextOGlitch_3\TextOGlitch.csproj", "{2485A24F-1FE5-4F6B-BF04-2EF387710504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextGlitch", "TextGlitch\TextGlitch.csproj", "{94134077-F377-41CA-B6B3-ECD230330E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileGlitcher", "FileGlitcher\FileGlitcher.csproj", "{62E53525-6EDD-4D18-A149-3154561385A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2485A24F-1FE5-4F6B-BF04-2EF387710504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2485A24F-1FE5-4F6B-BF04-2EF387710504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2485A24F-1FE5-4F6B-BF04-2EF387710504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2485A24F-1FE5-4F6B-BF04-2EF387710504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94134077-F377-41CA-B6B3-ECD230330E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94134077-F377-41CA-B6B3-ECD230330E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94134077-F377-41CA-B6B3-ECD230330E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94134077-F377-41CA-B6B3-ECD230330E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E53525-6EDD-4D18-A149-3154561385A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E53525-6EDD-4D18-A149-3154561385A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E53525-6EDD-4D18-A149-3154561385A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E53525-6EDD-4D18-A149-3154561385A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D68BC03E-699F-46A2-945D-838F7B93B876}
+	EndGlobalSection
+EndGlobal
