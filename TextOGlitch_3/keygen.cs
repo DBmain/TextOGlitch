@@ -3,6 +3,7 @@ using System.IO;
 using System.Threading;
 using System.Windows.Forms;
 using TextGlitch;
+using TextOGlitch;
 
 namespace TextOGlitch_3
 {

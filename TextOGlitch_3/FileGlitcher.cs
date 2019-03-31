@@ -2,6 +2,7 @@
 using System.IO;
 using System.Threading;
 using System.Windows.Forms;
+using TextOGlitch;
 using TextOGlitch_3;
 
 namespace FileGlitcherGUI
